@@ -1,4 +1,16 @@
-# SaaS English CEFR — Placement Grading API
+# AI English Mr Khoirul — Unified Agent + CEFR Grading
+
+Struktur `ai-agent-project/` + fitur CEFR 4 skills A1-C2 (226 items, TTS 36 mp3).
+
+## Run
+```bash
+pip install -r requirements.txt
+cp .env.example .env  # isi LLM_API_KEY
+python main.py          # -> http://localhost:8000
+# atau
+uvicorn src.api.routes:app --reload --port 8000
+```
+\n---\n# SaaS English CEFR — Placement Grading API
 
 `POST /grade` → CEFR A1-C2 dari 4 skills.
 
