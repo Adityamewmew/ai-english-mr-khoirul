@@ -7,3 +7,6 @@ venv/
 .DS_Store
 data/audio/*.mp3
 *.mp3
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
