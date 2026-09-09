@@ -1,0 +1,56 @@
+{
+  "writing": [
+    {
+      "label": "A2 anchor",
+      "input": "My family have 4 people. My mother cooking very good. I am like play football every day. My father go to work by motor.",
+      "expect": {
+        "cefr": "A2",
+        "score_0_100": 25,
+        "note": "present simple only, article/agreement errors, very short sentences, no connectors"
+      }
+    },
+    {
+      "label": "B1 anchor",
+      "input": "I have never been abroad, but I want to travel to Japan next year. I think travelling is important because we can learn new culture. If I have enough money, I will go with my family. I like Japan because the people are very kind.",
+      "expect": {
+        "cefr": "B1",
+        "score_0_100": 50,
+        "note": "present perfect, conditional 1, because/if connectors, some errors but meaning clear"
+      }
+    },
+    {
+      "label": "B2 anchor",
+      "input": "Although many people argue that online learning is less effective, I believe it offers significant advantages. However, students need self-discipline to succeed. It is claimed that face-to-face interaction cannot be replaced, but recent studies have shown that well-designed online courses can achieve similar outcomes. Therefore, universities should adopt a blended approach.",
+      "expect": {
+        "cefr": "B2",
+        "score_0_100": 70,
+        "note": "although/however/therefore, passive 'is claimed', present perfect passive 'have shown', complex sentences"
+      }
+    },
+    {
+      "label": "C1 anchor",
+      "input": "What concerns me most about artificial intelligence is not its technical limitations but the ethical vacuum in which it is being deployed. Were regulators to adopt a more proactive stance, many of the risks currently associated with algorithmic bias could be mitigated. Nevertheless, nominalisation and hedging aside, the crux of the matter remains accountability: who bears responsibility when an autonomous system fails?",
+      "expect": {
+        "cefr": "C1",
+        "score_0_100": 88,
+        "note": "cleft 'What concerns me', inversion 'Were regulators', nominalisation, hedging, cohesive Nevertheless"
+      }
+    }
+  ],
+  "speaking": [
+    {
+      "label": "A2 speaking",
+      "transcript": "Hello my name is Adit. I live in Jakarta. I like football. I play every day with my friend.",
+      "expect": {
+        "cefr": "A2"
+      }
+    },
+    {
+      "label": "B2 speaking",
+      "transcript": "I think working from home has both advantages and disadvantages. On the one hand you can save time, however you may feel isolated because you don't interact with colleagues directly. In my experience, a hybrid model works best.",
+      "expect": {
+        "cefr": "B2"
+      }
+    }
+  ]
+}
