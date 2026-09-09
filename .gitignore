@@ -5,3 +5,5 @@ venv/
 .env
 *.log
 .DS_Store
+data/audio/*.mp3
+*.mp3

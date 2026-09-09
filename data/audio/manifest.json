@@ -1,0 +1,362 @@
+{
+  "L-A1-01": {
+    "file": "data/audio/L-A1-01.mp3",
+    "voice": "en-GB-LibbyNeural",
+    "rate": "-33%",
+    "wpm": 100,
+    "accent": "British (slow)",
+    "title": "At the Hotel",
+    "duration_s": 28,
+    "text_preview": "Hello. What is your name? My name is Anna. A-N-N-A. Where are you from? I am from Italy. What is your room number? Room "
+  },
+  "L-A1-02": {
+    "file": "data/audio/L-A1-02.mp3",
+    "voice": "en-US-EmmaMultilingualNeural",
+    "rate": "-37%",
+    "wpm": 95,
+    "accent": "American (slow)",
+    "title": "Shopping — Prices",
+    "duration_s": 30,
+    "text_preview": "Excuse me, how much is this T-shirt? It's twelve dollars. Do you have a bigger size? Yes, here is large. Thank you."
+  },
+  "L-A1-03": {
+    "file": "data/audio/L-A1-03.mp3",
+    "voice": "en-GB-LibbyNeural",
+    "rate": "-30%",
+    "wpm": 105,
+    "accent": "British (slow)",
+    "title": "Family Intro",
+    "duration_s": 25,
+    "text_preview": "This is my family. This is my mother. She is a teacher. This is my father. He is a driver. I have one sister. She is fiv"
+  },
+  "L-A1-04": {
+    "file": "data/audio/L-A1-04.mp3",
+    "voice": "en-US-EmmaMultilingualNeural",
+    "rate": "-33%",
+    "wpm": 100,
+    "accent": "Neutral",
+    "title": "Time and Day",
+    "duration_s": 22,
+    "text_preview": "What time is it? It is eight o'clock. Is it Monday today? No, it is Tuesday."
+  },
+  "L-A1-05": {
+    "file": "data/audio/L-A1-05.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-33%",
+    "wpm": 100,
+    "accent": "American",
+    "title": "At the Cafe",
+    "duration_s": 35,
+    "text_preview": "Hello, what would you like? A coffee, please. And a sandwich. Small or large coffee? Small, please. That is six dollars."
+  },
+  "L-A1-06": {
+    "file": "data/audio/L-A1-06.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-33%",
+    "wpm": 100,
+    "accent": "British",
+    "title": "Directions Simple",
+    "duration_s": 30,
+    "text_preview": "Excuse me, where is the bus station? Go straight. Then turn left. It is next to the supermarket. Thank you very much."
+  },
+  "L-A2-01": {
+    "file": "data/audio/L-A2-01.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-20%",
+    "wpm": 120,
+    "accent": "British",
+    "title": "Train Announcement",
+    "duration_s": 42,
+    "text_preview": "The train to Manchester leaves from platform four at ten fifteen. Please have your tickets ready. The journey takes two "
+  },
+  "L-A2-02": {
+    "file": "data/audio/L-A2-02.mp3",
+    "voice": "en-AU-NatashaNeural",
+    "rate": "-17%",
+    "wpm": 125,
+    "accent": "Australian",
+    "title": "Weekend Plans",
+    "duration_s": 45,
+    "text_preview": "What are you doing this weekend? I'm going to visit my grandparents. They live near the beach. How are you going there? "
+  },
+  "L-A2-03": {
+    "file": "data/audio/L-A2-03.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-20%",
+    "wpm": 120,
+    "accent": "American",
+    "title": "Shopping Return",
+    "duration_s": 40,
+    "text_preview": "Hello, I bought this jacket yesterday but it is too small. Do you have the receipt? Yes, here it is. Would you like a bi"
+  },
+  "L-A2-04": {
+    "file": "data/audio/L-A2-04.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-20%",
+    "wpm": 120,
+    "accent": "British",
+    "title": "Doctor Appointment",
+    "duration_s": 38,
+    "text_preview": "Hello, City Clinic. I need to see a doctor tomorrow. What time would you like? We have nine AM or three PM. Three PM is "
+  },
+  "L-A2-05": {
+    "file": "data/audio/L-A2-05.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-21%",
+    "wpm": 118,
+    "accent": "American",
+    "title": "Weather Forecast",
+    "duration_s": 48,
+    "text_preview": "Tomorrow will be cloudy in the morning. In the afternoon, there will be light rain. The temperature will be fifteen degr"
+  },
+  "L-A2-06": {
+    "file": "data/audio/L-A2-06.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-19%",
+    "wpm": 122,
+    "accent": "British",
+    "title": "Restaurant Order",
+    "duration_s": 44,
+    "text_preview": "Are you ready to order? Yes, I'll have the chicken salad and orange juice. Anything else? No, that's all. The salad is t"
+  },
+  "L-B1-01": {
+    "file": "data/audio/L-B1-01.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-7%",
+    "wpm": 140,
+    "accent": "British",
+    "title": "Travel Problems",
+    "duration_s": 68,
+    "text_preview": "Today we talk about travel. Have you ever missed a flight? Yes, last year I was travelling to Berlin for a conference. M"
+  },
+  "L-B1-02": {
+    "file": "data/audio/L-B1-02.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-5%",
+    "wpm": 142,
+    "accent": "American",
+    "title": "University Life",
+    "duration_s": 72,
+    "text_preview": "I moved to the university dormitory last month. At first it was difficult because I had never lived away from my family "
+  },
+  "L-B1-03": {
+    "file": "data/audio/L-B1-03.mp3",
+    "voice": "en-AU-NatashaNeural",
+    "rate": "-8%",
+    "wpm": 138,
+    "accent": "Australian",
+    "title": "Job Interview Advice",
+    "duration_s": 65,
+    "text_preview": "If you want to succeed in a job interview, you should research the company before you go. Think about why you want to wo"
+  },
+  "L-B1-04": {
+    "file": "data/audio/L-B1-04.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-7%",
+    "wpm": 140,
+    "accent": "British",
+    "title": "Healthy Lifestyle",
+    "duration_s": 70,
+    "text_preview": "Many people think they need to go to the gym every day to stay healthy, but that's not true. Walking for thirty minutes "
+  },
+  "L-B1-05": {
+    "file": "data/audio/L-B1-05.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-10%",
+    "wpm": 135,
+    "accent": "American",
+    "title": "Technology in Education",
+    "duration_s": 75,
+    "text_preview": "Since we started using tablets in class, students are more engaged. They can watch videos and do interactive exercises. "
+  },
+  "L-B1-06": {
+    "file": "data/audio/L-B1-06.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "-7%",
+    "wpm": 140,
+    "accent": "British",
+    "title": "Cultural Festival",
+    "duration_s": 60,
+    "text_preview": "Welcome to the spring festival. This tradition started over two hundred years ago when farmers celebrated the end of win"
+  },
+  "L-B2-01": {
+    "file": "data/audio/L-B2-01.mp3",
+    "voice": "en-GB-ThomasNeural",
+    "rate": "+3%",
+    "wpm": 155,
+    "accent": "British academic",
+    "title": "Lecture: Urbanisation",
+    "duration_s": 95,
+    "text_preview": "Urbanisation is not simply people moving to cities. It involves profound economic and social transformations. In develop"
+  },
+  "L-B2-02": {
+    "file": "data/audio/L-B2-02.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "+0%",
+    "wpm": 150,
+    "accent": "American",
+    "title": "News: Remote Work Debate",
+    "duration_s": 88,
+    "text_preview": "The debate over remote work intensified this week after a major tech firm ordered all employees back to the office five "
+  },
+  "L-B2-03": {
+    "file": "data/audio/L-B2-03.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+1%",
+    "wpm": 152,
+    "accent": "British",
+    "title": "Interview: Renewable Energy",
+    "duration_s": 90,
+    "text_preview": "Is renewable energy now economically viable? It is claimed that renewables are still too expensive, but that claim no lo"
+  },
+  "L-B2-04": {
+    "file": "data/audio/L-B2-04.mp3",
+    "voice": "en-AU-NatashaNeural",
+    "rate": "+0%",
+    "wpm": 150,
+    "accent": "Australian",
+    "title": "Discussion: Social Media & Mental Health",
+    "duration_s": 85,
+    "text_preview": "Research suggests a correlation, not necessarily causation, between heavy social media use and anxiety among teenagers. "
+  },
+  "L-B2-05": {
+    "file": "data/audio/L-B2-05.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "-1%",
+    "wpm": 148,
+    "accent": "American",
+    "title": "Lecture: Behavioral Economics",
+    "duration_s": 92,
+    "text_preview": "Traditional economics assumes we are rational actors, yet behavioral studies repeatedly show we are predictably irration"
+  },
+  "L-B2-06": {
+    "file": "data/audio/L-B2-06.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+3%",
+    "wpm": 155,
+    "accent": "British",
+    "title": "Podcast: Future of Work",
+    "duration_s": 90,
+    "text_preview": "Automation will not simply eliminate jobs; it will transform them. Roles involving repetitive tasks are most vulnerable,"
+  },
+  "L-C1-01": {
+    "file": "data/audio/L-C1-01.mp3",
+    "voice": "en-GB-RyanNeural",
+    "rate": "+10%",
+    "wpm": 165,
+    "accent": "British (fast, idiomatic)",
+    "title": "Panel: AI Ethics",
+    "duration_s": 110,
+    "text_preview": "Should we anthropomorphise AI? We already do — and that's precisely the danger. When a chatbot says 'I understand', user"
+  },
+  "L-C1-02": {
+    "file": "data/audio/L-C1-02.mp3",
+    "voice": "en-US-GuyNeural",
+    "rate": "+12%",
+    "wpm": 168,
+    "accent": "American academic",
+    "title": "Lecture: Monetary Policy",
+    "duration_s": 115,
+    "text_preview": "Conventional wisdom held that low unemployment must drive inflation, yet the post-pandemic period confounded that model."
+  },
+  "L-C1-03": {
+    "file": "data/audio/L-C1-03.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+8%",
+    "wpm": 162,
+    "accent": "British",
+    "title": "Debate: Genetic Editing",
+    "duration_s": 108,
+    "text_preview": "The ethical objection to germline editing often hinges on hubris — the notion that we should not 'play God'. Yet we alre"
+  },
+  "L-C1-04": {
+    "file": "data/audio/L-C1-04.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "+10%",
+    "wpm": 165,
+    "accent": "American",
+    "title": "Interview: Architecture & Sustainability",
+    "duration_s": 105,
+    "text_preview": "The fetishisation of glass towers is fundamentally at odds with climate goals. A truly sustainable building is not one t"
+  },
+  "L-C1-05": {
+    "file": "data/audio/L-C1-05.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+7%",
+    "wpm": 160,
+    "accent": "British",
+    "title": "Documentary: Language Death",
+    "duration_s": 112,
+    "text_preview": "Every forty days, a language dies, taking with it an entire worldview. The process is rarely violent; rather, it is insi"
+  },
+  "L-C1-06": {
+    "file": "data/audio/L-C1-06.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "+10%",
+    "wpm": 165,
+    "accent": "American",
+    "title": "Lecture: Cognitive Biases",
+    "duration_s": 100,
+    "text_preview": "Confirmation bias is not merely seeking agreeable information; it is interpreting ambiguous evidence as supportive. More"
+  },
+  "L-C2-01": {
+    "file": "data/audio/L-C2-01.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+17%",
+    "wpm": 175,
+    "accent": "Mixed (British/American, fast, idiomatic)",
+    "title": "Oxford Union: Free Speech",
+    "duration_s": 125,
+    "text_preview": "The paradox of deplatforming is that in attempting to deny a platform to noxious views, we inadvertently platform the ve"
+  },
+  "L-C2-02": {
+    "file": "data/audio/L-C2-02.mp3",
+    "voice": "en-GB-RyanNeural",
+    "rate": "+19%",
+    "wpm": 178,
+    "accent": "British (rapid, humour, irony)",
+    "title": "Satirical Review: Tech Utopianism",
+    "duration_s": 120,
+    "text_preview": "Silicon Valley's latest promise — that an app will 'disrupt' loneliness — is, with exquisite irony, being pitched by the"
+  },
+  "L-C2-03": {
+    "file": "data/audio/L-C2-03.mp3",
+    "voice": "en-US-GuyNeural",
+    "rate": "+15%",
+    "wpm": 172,
+    "accent": "American academic",
+    "title": "Supreme Court Oral Argument",
+    "duration_s": 130,
+    "text_preview": "Counsel, your reading would render the savings clause a nullity — a textbook surplusage problem. How do you square that "
+  },
+  "L-C2-04": {
+    "file": "data/audio/L-C2-04.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+17%",
+    "wpm": 175,
+    "accent": "British",
+    "title": "Literary Lecture: Unreliable Narrator",
+    "duration_s": 118,
+    "text_preview": "The brilliance of Ishiguro's narrator is not that he lies, but that he deceives himself with such consummate politeness "
+  },
+  "L-C2-05": {
+    "file": "data/audio/L-C2-05.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "+17%",
+    "wpm": 176,
+    "accent": "Mixed",
+    "title": "Geopolitics Briefing",
+    "duration_s": 122,
+    "text_preview": "The conventional framing of this conflict as a binary — autocracy versus democracy — collapses under scrutiny. The belli"
+  },
+  "L-C2-06": {
+    "file": "data/audio/L-C2-06.mp3",
+    "voice": "en-US-AriaNeural",
+    "rate": "+16%",
+    "wpm": 174,
+    "accent": "American",
+    "title": "Philosophy: Moral Luck",
+    "duration_s": 128,
+    "text_preview": "Nagel's problem of moral luck is vertiginous: two drivers, equally reckless, swerve identically, yet one, by luck, kills"
+  }
+}
