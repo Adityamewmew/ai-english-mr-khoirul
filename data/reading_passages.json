@@ -1,0 +1,677 @@
+[
+  {
+    "id": "R-A1-01",
+    "cefr": "A1",
+    "title": "My Day",
+    "word_count": 138,
+    "passage": "Hello! My name is Lina. I am twelve years old. I live in Jakarta with my mother, father and brother. I go to school at seven o'clock. My school is near my house. I ride a bicycle to school. I like my school. My favourite subject is English. My teacher is Mrs Sari. She is very kind. After school I play football with my friends. In the evening I do my homework and watch TV. I go to bed at nine o'clock.",
+    "questions": [
+      {
+        "q": "How does Lina go to school?",
+        "options": [
+          "By bus",
+          "By bicycle",
+          "By car",
+          "On foot"
+        ],
+        "answer": "By bicycle"
+      },
+      {
+        "q": "What is Lina's favourite subject?",
+        "options": [
+          "Math",
+          "Science",
+          "English",
+          "Art"
+        ],
+        "answer": "English"
+      },
+      {
+        "q": "When does she go to bed?",
+        "options": [
+          "8:00",
+          "9:00",
+          "10:00",
+          "7:00"
+        ],
+        "answer": "9:00"
+      }
+    ]
+  },
+  {
+    "id": "R-A1-02",
+    "cefr": "A1",
+    "title": "The Supermarket",
+    "word_count": 132,
+    "passage": "The supermarket is open from eight in the morning to nine at night. It is on Green Street. You can buy food, drinks and clothes there. Apples are two dollars. Milk is one dollar. Bread is three dollars. On Saturday there are many people. On Sunday the supermarket is closed. I go there with my mother on Friday.",
+    "questions": [
+      {
+        "q": "When is supermarket closed?",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Friday",
+          "Monday"
+        ],
+        "answer": "Sunday"
+      },
+      {
+        "q": "How much is bread?",
+        "options": [
+          "$1",
+          "$2",
+          "$3",
+          "$4"
+        ],
+        "answer": "$3"
+      }
+    ]
+  },
+  {
+    "id": "R-A1-03",
+    "cefr": "A1",
+    "title": "My Cat",
+    "word_count": 128,
+    "passage": "I have a cat. Its name is Mimi. It is white and grey. It is two years old. It likes to sleep on my bed. It likes fish and milk. Every morning I give it food. It plays with a ball in the garden. I love my cat very much.",
+    "questions": [
+      {
+        "q": "What does Mimi like to eat?",
+        "options": [
+          "Fish and milk",
+          "Bread and cheese",
+          "Chicken and rice",
+          "Cake"
+        ],
+        "answer": "Fish and milk"
+      }
+    ]
+  },
+  {
+    "id": "R-A1-04",
+    "cefr": "A1",
+    "title": "My Friend",
+    "word_count": 145,
+    "passage": "This is my friend Budi. He is thirteen. He lives in Surabaya. He has short black hair and brown eyes. He likes playing badminton. He plays every Saturday with his brother. He wants to be a doctor. He studies hard every day. He is a good friend.",
+    "questions": [
+      {
+        "q": "What sport does Budi like?",
+        "options": [
+          "Football",
+          "Badminton",
+          "Basketball",
+          "Tennis"
+        ],
+        "answer": "Badminton"
+      },
+      {
+        "q": "What does Budi want to be?",
+        "options": [
+          "Teacher",
+          "Doctor",
+          "Driver",
+          "Pilot"
+        ],
+        "answer": "Doctor"
+      }
+    ]
+  },
+  {
+    "id": "R-A2-01",
+    "cefr": "A2",
+    "title": "A Trip to Bali",
+    "word_count": 196,
+    "passage": "Last holiday my family went to Bali. We travelled by plane from Jakarta. The flight took two hours. We stayed in a small hotel near the beach. Every morning we swam in the sea and in the afternoon we visited temples. One day we went to Ubud and saw traditional dancing. The people were very friendly and the food was delicious. We bought some souvenirs and took many photos. We came back home on Sunday. I want to go there again next year.",
+    "questions": [
+      {
+        "q": "How did they travel to Bali?",
+        "options": [
+          "By train",
+          "By plane",
+          "By bus",
+          "By car"
+        ],
+        "answer": "By plane"
+      },
+      {
+        "q": "What did they see in Ubud?",
+        "options": [
+          "Modern art",
+          "Traditional dancing",
+          "A concert",
+          "A football match"
+        ],
+        "answer": "Traditional dancing"
+      },
+      {
+        "q": "When did they return?",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Monday",
+          "Friday"
+        ],
+        "answer": "Sunday"
+      }
+    ]
+  },
+  {
+    "id": "R-A2-02",
+    "cefr": "A2",
+    "title": "Learning English",
+    "word_count": 205,
+    "passage": "I started learning English two years ago. At first it was difficult because I didn't know many words. Now I study for one hour every day. I watch English videos on YouTube and read short stories. My teacher says my speaking is getting better, but my writing is still weak. I want to improve because I need English for my future job. Next year I will take an English course in the evenings after work.",
+    "questions": [
+      {
+        "q": "When did the writer start learning English?",
+        "options": [
+          "One year ago",
+          "Two years ago",
+          "Three years ago",
+          "Six months ago"
+        ],
+        "answer": "Two years ago"
+      },
+      {
+        "q": "What is still weak?",
+        "options": [
+          "Speaking",
+          "Listening",
+          "Writing",
+          "Reading"
+        ],
+        "answer": "Writing"
+      }
+    ]
+  },
+  {
+    "id": "R-A2-03",
+    "cefr": "A2",
+    "title": "My Hometown",
+    "word_count": 188,
+    "passage": "I live in a small town near Yogyakarta. It is not very big but it is quiet and clean. There are two schools, a market and a hospital. The most famous place is the old palace. Many tourists visit it every weekend. I like my town because the people are kind and the air is fresh. However, there are not many jobs, so many young people move to big cities like Jakarta or Surabaya.",
+    "questions": [
+      {
+        "q": "Why do young people leave?",
+        "options": [
+          "Pollution",
+          "Not many jobs",
+          "Expensive",
+          "No school"
+        ],
+        "answer": "Not many jobs"
+      }
+    ]
+  },
+  {
+    "id": "R-A2-04",
+    "cefr": "A2",
+    "title": "A New Phone",
+    "word_count": 192,
+    "passage": "Yesterday I bought a new phone. It cost three million rupiah. It has a big screen and a good camera. I can take photos and play games. I also use it to study English. There is an app where I can talk to people from other countries. I have already talked to someone from Canada and Australia. It is very interesting.",
+    "questions": [
+      {
+        "q": "How much did the phone cost?",
+        "options": [
+          "1 million",
+          "3 million",
+          "5 million",
+          "2 million"
+        ],
+        "answer": "3 million"
+      }
+    ]
+  },
+  {
+    "id": "R-B1-01",
+    "cefr": "B1",
+    "title": "Why Do People Travel?",
+    "word_count": 312,
+    "passage": "People have travelled for thousands of years, but travelling for pleasure is a relatively recent idea. In the past, people travelled only if they needed to — for trade, war or religion. Today, many people travel because they want to experience new cultures and meet new people. Travelling can be educational. When you visit another country, you learn about its history, food and traditions. You also learn about yourself because you have to deal with unexpected situations. However, mass tourism can cause problems. Popular destinations become crowded and expensive, and local cultures can be damaged. Therefore, many experts suggest that travellers should choose less famous places and respect local customs. If tourists behave responsibly, tourism can help local economies without harming the environment.",
+    "questions": [
+      {
+        "q": "In the past, people travelled mainly for?",
+        "options": [
+          "Pleasure",
+          "Trade/war/religion",
+          "Education",
+          "Health"
+        ],
+        "answer": "Trade/war/religion"
+      },
+      {
+        "q": "What do experts suggest?",
+        "options": [
+          "Visit only famous places",
+          "Choose less famous places and respect customs",
+          "Never travel",
+          "Travel alone"
+        ],
+        "answer": "Choose less famous places and respect customs"
+      },
+      {
+        "q": "Mass tourism can?",
+        "options": [
+          "Help without any problem",
+          "Cause crowding, higher prices, cultural damage",
+          "Only help economy",
+          "Only damage roads"
+        ],
+        "answer": "Cause crowding, higher prices, cultural damage"
+      }
+    ]
+  },
+  {
+    "id": "R-B1-02",
+    "cefr": "B1",
+    "title": "Working From Home",
+    "word_count": 298,
+    "passage": "Since the pandemic, millions of people have started working from home. For many, this change has been positive. They save time because they don't need to commute, and they can spend more time with their families. Companies also save money on office costs. However, working from home is not perfect. Some people feel lonely because they don't see their colleagues. Others find it difficult to separate work and home life — they work longer hours and feel stressed. Psychologists recommend creating a separate workspace and taking regular breaks. If you work from home, you should also make time to meet friends and exercise. People who follow this advice usually feel happier and more productive.",
+    "questions": [
+      {
+        "q": "Positive of WFH according passage?",
+        "options": [
+          "Save commute time + family time, companies save costs",
+          "Faster promotion",
+          "More holidays",
+          "Less work"
+        ],
+        "answer": "Save commute time + family time, companies save costs"
+      },
+      {
+        "q": "Psychologists recommend?",
+        "options": [
+          "Work in bed",
+          "Separate workspace + breaks",
+          "Work longer",
+          "No breaks"
+        ],
+        "answer": "Separate workspace + breaks"
+      }
+    ]
+  },
+  {
+    "id": "R-B1-03",
+    "cefr": "B1",
+    "title": "Fast Fashion",
+    "word_count": 305,
+    "passage": "Fast fashion describes clothes that are cheap and follow the latest trends. Companies produce millions of items every month and sell them at low prices. As a result, people buy more clothes than they need and throw them away quickly. This causes serious environmental problems. Making clothes uses a lot of water and chemicals, and most discarded clothes end up in landfills. Although some brands have started using recycled materials, the majority still produce in the same way. Consumers can help by buying fewer clothes, choosing quality over quantity, and donating what they no longer wear. If everyone made small changes, the impact would be significant.",
+    "questions": [
+      {
+        "q": "Fast fashion is?",
+        "options": [
+          "Expensive and durable",
+          "Cheap and trend-driven, high volume"
+        ],
+        "answer": "Cheap and trend-driven, high volume"
+      },
+      {
+        "q": "What can consumers do?",
+        "options": [
+          "Buy more",
+          "Buy fewer, choose quality, donate"
+        ],
+        "answer": "Buy fewer, choose quality, donate"
+      }
+    ]
+  },
+  {
+    "id": "R-B1-04",
+    "cefr": "B1",
+    "title": "Learning a Second Language",
+    "word_count": 322,
+    "passage": "Many studies have shown that learning a second language is good for the brain. Bilingual people can often focus better and switch between tasks more quickly. They may also delay the onset of dementia. However, learning a language is not easy. Most people need at least two years of regular practice to reach an intermediate level. The key is consistency — studying a little every day is more effective than studying for many hours once a week. Although apps and online courses are helpful, research shows that interaction with real people is the best way to improve speaking skills. Therefore, learners should try to find conversation partners if possible.",
+    "questions": [
+      {
+        "q": "Bilingual benefit?",
+        "options": [
+          "Better focus/task switching, may delay dementia",
+          "Larger height",
+          "Faster running",
+          "No benefit"
+        ],
+        "answer": "Better focus/task switching, may delay dementia"
+      },
+      {
+        "q": "What is most effective?",
+        "options": [
+          "Many hours once a week",
+          "A little every day + real interaction"
+        ],
+        "answer": "A little every day + real interaction"
+      }
+    ]
+  },
+  {
+    "id": "R-B2-01",
+    "cefr": "B2",
+    "title": "The Attention Economy",
+    "word_count": 468,
+    "passage": "In the past, information was scarce and attention was abundant. Today the opposite is true: we are inundated with information, and attention has become the scarcest resource. Technology companies have built entire business models around capturing and monetising attention. Social media platforms are designed to maximise the time users spend scrolling, using techniques borrowed from behavioural psychology, such as variable rewards — the same mechanism that makes slot machines addictive. As a result, many people find it increasingly difficult to concentrate for extended periods. Studies have shown that heavy smartphone users struggle not only with focus but also with memory consolidation, as constant task-switching prevents deep processing. Although some argue that the solution is simply to exercise willpower, research suggests that environmental design is more powerful than individual discipline. Therefore, experts recommend restructuring one's digital environment: disabling non-essential notifications, setting app limits, and designating phone-free periods. Moreover, cultivating practices such as sustained reading or mindfulness meditation can help rebuild attentional capacity. It is claimed that even a week of reduced screen time can lead to measurable improvements in wellbeing. Consequently, reclaiming attention is not merely a personal productivity issue but a broader societal challenge that requires both individual and collective action.",
+    "questions": [
+      {
+        "q": "Business model built on?",
+        "options": [
+          "Selling devices",
+          "Capturing/monetising attention",
+          "Advertising only",
+          "Subscriptions"
+        ],
+        "answer": "Capturing/monetising attention"
+      },
+      {
+        "q": "Mechanism compared to?",
+        "options": [
+          "Lottery",
+          "Slot machines / variable rewards",
+          "Video games only",
+          "TV"
+        ],
+        "answer": "Slot machines / variable rewards"
+      },
+      {
+        "q": "Experts argue solution is?",
+        "options": [
+          "Willpower only",
+          "Restructuring digital environment + practices like reading/meditation"
+        ],
+        "answer": "Restructuring digital environment + practices like reading/meditation"
+      }
+    ]
+  },
+  {
+    "id": "R-B2-02",
+    "cefr": "B2",
+    "title": "Urban Green Spaces",
+    "word_count": 445,
+    "passage": "As cities expand, the importance of urban green spaces has become increasingly apparent. Parks, community gardens, and street trees provide not only aesthetic benefits but also crucial environmental services. They reduce the urban heat island effect, absorb air pollutants, and manage stormwater runoff. Moreover, access to green spaces has been linked to significant mental health benefits, including reduced stress and anxiety. Having grown rapidly without adequate planning, many cities in developing countries now face a deficit of such spaces. Recently, planners have begun to integrate green infrastructure into urban design, rather than treating it as an afterthought. For example, Singapore's Park Connector Network links major parks with tree-lined corridors, encouraging physical activity while preserving biodiversity. While it was once believed that economic growth and environmental preservation were mutually exclusive, evidence suggests they can be complementary. Cities that invest in green spaces often see increased property values and tourism revenue. Therefore, the question for policymakers is no longer whether to invest, but how much and where.",
+    "questions": [
+      {
+        "q": "Green spaces environmental services?",
+        "options": [
+          "Only aesthetic",
+          "Reduce heat island, absorb pollutants, manage runoff"
+        ],
+        "answer": "Reduce heat island, absorb pollutants, manage runoff"
+      },
+      {
+        "q": "Singapore example?",
+        "options": [
+          "No green spaces",
+          "Park Connector Network links parks with corridors"
+        ],
+        "answer": "Park Connector Network links parks with corridors"
+      }
+    ]
+  },
+  {
+    "id": "R-B2-03",
+    "cefr": "B2",
+    "title": "The Future of Food",
+    "word_count": 432,
+    "passage": "Feeding a global population of nearly ten billion by 2050 will require fundamental changes to how we produce food. Agriculture already accounts for approximately seventy percent of freshwater use and is a major driver of deforestation. Although it has been argued that simply increasing yields will be sufficient, recent research indicates that dietary shifts are equally important. Reducing meat consumption, particularly beef, could free up vast areas of land and significantly cut greenhouse gas emissions. Having recognised this, some governments have introduced incentives for plant-based diets, while food companies are investing in alternative proteins, such as lab-grown meat and insect-based products. However, cultural attitudes remain a significant barrier, as meat is deeply embedded in many culinary traditions. Therefore, transition strategies must be culturally sensitive and economically viable for farmers. Ultimately, the future of food will depend not on a single solution but on a combination of technological innovation, policy reform, and behavioural change.",
+    "questions": [
+      {
+        "q": "Major driver of freshwater use/deforestation?",
+        "options": [
+          "Transport",
+          "Agriculture ~70% freshwater"
+        ],
+        "answer": "Agriculture ~70% freshwater"
+      },
+      {
+        "q": "Needed according research?",
+        "options": [
+          "Only yield increase",
+          "Yield + dietary shifts (reduce beef)"
+        ],
+        "answer": "Yield + dietary shifts (reduce beef)"
+      }
+    ]
+  },
+  {
+    "id": "R-B2-04",
+    "cefr": "B2",
+    "title": "Misinformation",
+    "word_count": 458,
+    "passage": "The spread of misinformation has been dramatically accelerated by social media, where false stories often travel faster than verified ones. Research has shown that novelty and emotional content — particularly outrage — make misinformation more shareable. While it is tempting to attribute the problem solely to malicious actors, studies indicate that ordinary users inadvertently share false information when they fail to verify sources. Moreover, algorithms that prioritise engagement amplify sensational content, creating echo chambers in which users are rarely exposed to contradictory views. Having identified the mechanisms, researchers are now exploring interventions. Fact-checking, while useful, has limited reach, as corrections rarely achieve the same virality as the original false claim. More promising are pre-emptive approaches, such as media literacy education and prompts that encourage users to pause and reflect before sharing. Consequently, addressing misinformation requires a multi-faceted strategy that combines platform accountability, education, and individual responsibility. As one scholar noted, the antidote to misinformation is not censorship but critical thinking.",
+    "questions": [
+      {
+        "q": "Why does misinformation spread faster?",
+        "options": [
+          "Longer",
+          "Novelty + emotional/outrage"
+        ],
+        "answer": "Novelty + emotional/outrage"
+      },
+      {
+        "q": "More promising than fact-checking?",
+        "options": [
+          "Censorship",
+          "Pre-emptive: media literacy + pause prompts"
+        ],
+        "answer": "Pre-emptive: media literacy + pause prompts"
+      }
+    ]
+  },
+  {
+    "id": "R-C1-01",
+    "cefr": "C1",
+    "title": "The Paradox of Choice",
+    "word_count": 612,
+    "passage": "Conventional economic theory posits that more choice is inherently beneficial, as it maximises the likelihood that individuals will find an option precisely suited to their preferences. However, psychologist Barry Schwartz has argued that an overabundance of choice can be detrimental to wellbeing, leading to what he terms the paradox of choice. When confronted with myriad options — whether among thirty varieties of jam or hundreds of career paths — individuals often experience decision paralysis, followed by dissatisfaction regardless of outcome. This dissatisfaction stems not from the chosen option's objective quality but from the counterfactual reasoning it engenders: the nagging sense that a foregone alternative might have been superior. What is particularly insidious is that this process is self-reinforcing. Were consumers to adopt a satisficing strategy — accepting a 'good enough' option rather than relentlessly maximising — they would report higher satisfaction, yet the cultural imperative to optimise proves difficult to resist. Notwithstanding the intuitive appeal of maximising, evidence suggests that those who satisfice experience less regret and greater psychological resilience. Moreover, the proliferation of choice has structural implications. Platforms that aggregate infinite options, from streaming services to dating apps, implicitly promise an ideal match, thereby raising expectations to unattainable levels. The inevitable gap between expectation and reality fuels a pervasive sense of inadequacy. Consequently, the challenge is not to eliminate choice but to architect environments that facilitate meaningful decisions without overwhelming cognitive resources. Minimalist movements and curated selections can be understood as rational responses to an otherwise cognitively exhausting marketplace.",
+    "questions": [
+      {
+        "q": "Paradox of choice is?",
+        "options": [
+          "More choice always better",
+          "Overabundance → paralysis + dissatisfaction via counterfactual reasoning"
+        ],
+        "answer": "Overabundance → paralysis + dissatisfaction via counterfactual reasoning"
+      },
+      {
+        "q": "Satisficing vs maximising?",
+        "options": [
+          "Maximising happier",
+          "Satisficing → less regret, more resilience"
+        ],
+        "answer": "Satisficing → less regret, more resilience"
+      },
+      {
+        "q": "Platforms with infinite options do?",
+        "options": [
+          "Lower expectations",
+          "Raise expectations to unattainable levels → inadequacy"
+        ],
+        "answer": "Raise expectations to unattainable levels → inadequacy"
+      }
+    ]
+  },
+  {
+    "id": "R-C1-02",
+    "cefr": "C1",
+    "title": "Decoupling Economic Growth from Emissions",
+    "word_count": 588,
+    "passage": "For decades, the relationship between economic growth and carbon emissions was assumed to be tightly coupled: to grow was to emit. Recently, however, a number of advanced economies have demonstrated that decoupling is possible. Not only have countries such as Denmark and the United Kingdom reduced absolute emissions while maintaining growth, but they have done so while improving living standards. The mechanisms are multifaceted. Having invested heavily in renewable infrastructure, these economies have substantially decarbonised electricity generation. Concurrently, structural shifts from manufacturing to services have reduced energy intensity. Nevertheless, sceptics caution against complacency. What concerns them is that territorial accounting obscures the outsourcing of emissions — goods consumed domestically but manufactured abroad still generate carbon, albeit attributed to another country's ledger. Were consumption-based accounting to be adopted, the apparent decoupling would appear considerably less impressive. Furthermore, the historical responsibility of advanced economies cannot be discounted; they have already consumed the majority of the remaining carbon budget. Thus, while decoupling offers a valuable proof of concept, its scalability to rapidly industrialising nations remains uncertain. Ultimately, the discourse must move beyond aggregate growth figures to consider the composition and distribution of growth itself.",
+    "questions": [
+      {
+        "q": "Decoupling example countries?",
+        "options": [
+          "US and China",
+          "Denmark and UK — reduced emissions while growing"
+        ],
+        "answer": "Denmark and UK — reduced emissions while growing"
+      },
+      {
+        "q": "Sceptics concern?",
+        "options": [
+          "Price",
+          "Territorial vs consumption-based accounting — outsourcing hides emissions"
+        ],
+        "answer": "Territorial vs consumption-based accounting — outsourcing hides emissions"
+      }
+    ]
+  },
+  {
+    "id": "R-C1-03",
+    "cefr": "C1",
+    "title": "The Biology of Bilingualism",
+    "word_count": 605,
+    "passage": "The bilingual brain has long intrigued neuroscientists, not merely for its linguistic capacity but for its implications for cognitive reserve. It was once feared that early bilingualism might burden the developing mind, causing confusion or delay. Contemporary research decisively repudiates this view. Having been exposed to two languages from infancy, bilingual children demonstrate enhanced executive control — the ability to inhibit one language while activating the other, a mental exercise that generalises to non-linguistic domains. What is particularly striking is the structural consequence: neuroimaging reveals increased grey matter density in the anterior cingulate cortex among lifelong bilinguals. Were this advantage to translate into clinical outcomes, the implications would be profound. Indeed, epidemiological studies suggest that bilingualism can delay the symptomatic onset of Alzheimer's by approximately five years, even after controlling for education and socioeconomic status. Nevertheless, the effect is probabilistic, not deterministic; bilingualism is no guarantee against neurodegeneration, but rather a contributing factor to cognitive resilience. Moreover, the benefit appears dose-dependent, contingent on sustained, active use of both languages, rather than passive knowledge. Consequently, the narrative should not be that bilingualism is a panacea, but that it exemplifies how sustained cognitive engagement shapes brain architecture. The broader lesson concerns neuroplasticity itself: the brain remains malleable, provided it is challenged.",
+    "questions": [
+      {
+        "q": "Early fear vs contemporary view?",
+        "options": [
+          "Fear burden → repudiated; enhances executive control"
+        ],
+        "answer": "Fear burden → repudiated; enhances executive control"
+      },
+      {
+        "q": "Alzheimer delay?",
+        "options": [
+          "~5 years, even controlling education/SES, but probabilistic"
+        ],
+        "answer": "~5 years, even controlling education/SES, but probabilistic"
+      }
+    ]
+  },
+  {
+    "id": "R-C1-04",
+    "cefr": "C1",
+    "title": "Algorithmic Governance",
+    "word_count": 595,
+    "passage": "The deployment of algorithmic systems in governance — from credit scoring to predictive policing — promises efficiency and ostensible objectivity, yet it embeds normative choices that often remain opaque. An algorithm is not a neutral arbiter but a crystallisation of its designers' assumptions, data, and objectives. Having optimised for historical patterns, such systems inevitably reproduce the biases therein. What concerns critics is not merely that bias exists, but that it becomes laundered through a veneer of mathematical legitimacy, thereby becoming harder to contest. Were a human official to make an equivalent judgment, recourse would be relatively straightforward; when an algorithm errs, accountability dissipates across a chain of vendors, datasets, and proprietary code. Notwithstanding these challenges, outright rejection would be imprudent. The alternative — unexamined human discretion — is itself rife with inconsistency and prejudice. Rather, what is needed is a framework of algorithmic accountability that mandates transparency, auditability, and meaningful human oversight. This entails not only technical measures, such as explainability requirements, but also institutional ones, including independent review boards. Ultimately, the question is not whether to use algorithms, but how to govern them in a manner that preserves due process while harnessing their potential.",
+    "questions": [
+      {
+        "q": "Algorithm bias becomes?",
+        "options": [
+          "Easily fixed",
+          "Laundered via mathematical legitimacy → harder to contest"
+        ],
+        "answer": "Laundered via mathematical legitimacy → harder to contest"
+      },
+      {
+        "q": "Accountability when algorithm errs?",
+        "options": [
+          "Clear",
+          "Dissipates across vendors/datasets/code"
+        ],
+        "answer": "Dissipates across vendors/datasets/code"
+      }
+    ]
+  },
+  {
+    "id": "R-C2-01",
+    "cefr": "C2",
+    "title": "The Epistemology of Conspiracy Theories",
+    "word_count": 712,
+    "passage": "Conspiracy theories are often dismissed as mere irrationality, a dismissal that itself betrays a misunderstanding of their epistemic structure. Far from being bereft of reasoning, they exhibit a hyper-rationality — an assiduous connecting of dots that, precisely because it is unconstrained by parsimony, generates an internally coherent but empirically vacuous edifice. The conspiratorial worldview is self-sealing: absence of evidence is recast as evidence of the cover-up's efficacy, and contradictory data is subsumed as deliberate disinformation. This hermetic quality renders falsification, the cornerstone of scientific reasoning, impotent. What is particularly vertiginous is the conspiratorial reversal of epistemic virtue: whereas science valorises the provisional and the tentative, conspiracism valorises certitude and comprehensiveness — the promise that nothing is accidental, nothing is as it seems, and everything is connected. That promise exerts a powerful existential allure, furnishing order in a contingent world and absolving the believer of the burden of ambiguity. To counter this, debunking, while superficially appealing, is often self-defeating, as it replicates the adversarial framing that sustains the worldview. More promising are interventions that operate at the level of epistemic norms — cultivating intellectual humility, probabilistic reasoning, and the capacity to tolerate explanatory incompleteness. Notwithstanding such efforts, the sociological conditions that incubate conspiracism — atomisation, institutional distrust, and the democratisation of content creation without commensurate gatekeeping — suggest that it is less an aberration than a symptom. To treat it as a cognitive defect, therefore, is to misdiagnose a fundamentally political and social phenomenon. The remedy, if there is one, lies not in correcting discrete falsehoods but in rebuilding the epistemic commons itself — the shared infrastructure of trust, verification, and accountability that makes collective sense-making possible.",
+    "questions": [
+      {
+        "q": "Conspiracy theories structure is?",
+        "options": [
+          "Irrational",
+          "Hyper-rational, self-sealing, absence of evidence = cover-up efficacy"
+        ],
+        "answer": "Hyper-rational, self-sealing, absence of evidence = cover-up efficacy"
+      },
+      {
+        "q": "Why debunking often fails?",
+        "options": [
+          "Too slow",
+          "Replicates adversarial framing that sustains worldview"
+        ],
+        "answer": "Replicates adversarial framing that sustains worldview"
+      },
+      {
+        "q": "Deeper remedy according author?",
+        "options": [
+          "More facts",
+          "Rebuilding epistemic commons — trust/verification/accountability"
+        ],
+        "answer": "Rebuilding epistemic commons — trust/verification/accountability"
+      }
+    ]
+  },
+  {
+    "id": "R-C2-02",
+    "cefr": "C2",
+    "title": "Monetary Sovereignty and the Euro",
+    "word_count": 698,
+    "passage": "The eurozone's architecture embodies a fundamental asymmetry: monetary union without fiscal union, a central bank without a sovereign, credit without a lender of last resort for its constituent states. Under the gold standard, adjustment to economic shocks was brutally simple — deflation and unemployment — but politically intolerable. The euro, by design, replicates this rigidity in a modern guise. Member states cannot devalue their currency, nor can they monetise debt; they are, in the phrase of one economist, users rather than issuers of currency. The crisis of 2010 laid bare this design flaw. Having borrowed in what was effectively a foreign currency, periphery states found themselves subject to the sudden stop dynamics more commonly associated with emerging markets, despite being advanced economies with ostensibly institutional credibility. The policy response — austerity — was not merely economically contractionary but conceptually incoherent within a monetary union, as simultaneous fiscal retrenchment across interdependent economies amplified rather than mitigated the downturn. What was lacking, and remains lacking, is a mechanism for cyclical stabilisation at the union level: a common treasury, Eurobonds, or a genuine transfer union. German ordoliberalism, with its categorical aversion to moral hazard, has consistently blocked such mechanisms, viewing them as exculpation rather than insurance. Yet the alternative — permanent divergence between core and periphery, punctuated by recurrent crises — is itself a profound moral hazard, as it entrenches a hierarchy of states within a purported community of equals. The tragedy of the euro, in this reading, is not that integration went too far, but that it stopped halfway.",
+    "questions": [
+      {
+        "q": "Eurozone asymmetry?",
+        "options": [
+          "Fiscal without monetary",
+          "Monetary union without fiscal union; states users not issuers of currency"
+        ],
+        "answer": "Monetary union without fiscal union; states users not issuers of currency"
+      },
+      {
+        "q": "2010 periphery crisis resembled?",
+        "options": [
+          "US states",
+          "Emerging markets sudden stop dynamics despite advanced status"
+        ],
+        "answer": "Emerging markets sudden stop dynamics despite advanced status"
+      },
+      {
+        "q": "Blocked mechanism and reason?",
+        "options": [
+          "Common treasury / Eurobonds blocked by ordoliberal moral hazard concerns"
+        ],
+        "answer": "Common treasury / Eurobonds blocked by ordoliberal moral hazard concerns"
+      }
+    ]
+  },
+  {
+    "id": "R-C2-03",
+    "cefr": "C2",
+    "title": "The Aesthetics of Impermanence",
+    "word_count": 685,
+    "passage": "The Japanese concept of wabi-sabi — often mistranslated as rustic simplicity — more accurately denotes an aesthetic attuned to impermanence, imperfection, and incompleteness. It is the beauty of the weathered stone, the irregular glaze, the garden that is never finished because it is never static. Western aesthetics, by contrast, has historically valorised permanence and perfection: the marble statue that defies time, the symmetrical façade that asserts order over contingency. That these are divergent responses to the same existential fact — that all things pass — is itself illuminating. Wabi-sabi does not merely tolerate transience but finds in it the very condition of beauty; the crack in the tea bowl, repaired with lacquer and gold in the kintsugi technique, is not hidden but illuminated, because the history of breakage is integral to the object's meaning. To dismiss this as mere sentimentality is to overlook its philosophical sophistication. Underpinning wabi-sabi is a Zen-inflected ontology in which being is not substance but process, not noun but verb. The cherry blossom is beautiful not despite its ephemerality but because of it; its brief flowering is a memento mori that sharpens rather than attenuates appreciation. In an age of planned obsolescence and digital simulacra, where the new is fetishised and the old discarded, wabi-sabi offers a quiet but radical reorientation: to cherish what is, precisely because it will not always be. That such a reorientation is itself impermanent — that wabi-sabi, too, will fade — is not a refutation but its ultimate confirmation.",
+    "questions": [
+      {
+        "q": "Wabi-sabi accurately denotes?",
+        "options": [
+          "Rustic simplicity",
+          "Aesthetic attuned to impermanence/imperfection/incompleteness"
+        ],
+        "answer": "Aesthetic attuned to impermanence/imperfection/incompleteness"
+      },
+      {
+        "q": "Kintsugi crack is?",
+        "options": [
+          "Hidden",
+          "Illuminated with gold — history integral to meaning"
+        ],
+        "answer": "Illuminated with gold — history integral to meaning"
+      }
+    ]
+  },
+  {
+    "id": "R-C2-04",
+    "cefr": "C2",
+    "title": "The Crowd Within",
+    "word_count": 705,
+    "passage": "Gustave Le Bon's proclamation that the crowd renders the individual barbaric has proven remarkably durable, despite being empirically threadbare. Contemporary crowd psychology, notably the social identity perspective pioneered by Reicher and colleagues, inverts Le Bon's formulation: people in crowds do not lose identity but shift from personal to social identity, acting not as atomised egos but as members of a salient group. The implications are profound. What appears from the outside as mindless uniformity is, from within, norm-governed behaviour — albeit norms that are locally constructed and situationally emergent. Were a football crowd to chant in unison, it is not because its members have been hypnotised but because chanting is what it means, in that moment, to be a proper supporter. That this account restores agency to crowd members is its most significant contribution, yet it also complicates questions of responsibility. If crowd action is meaningful rather than mechanical, then moral evaluation cannot be suspended, even if causal attribution becomes more intricate. Notwithstanding this nuance, institutional responses remain stubbornly Le Bonian: the deployment of overwhelming force to coerce compliance, a strategy that, by treating a crowd as an undifferentiated mass, often precipitates precisely the confrontation it purports to prevent. The paradox is stark: the myth of the irrational crowd, by informing policing tactics, helps produce the very irrationality it presupposes — a self-fulfilling prophecy written in riot gear.",
+    "questions": [
+      {
+        "q": "Social identity vs Le Bon crow theory?",
+        "options": [
+          "Lose identity → barbaric",
+          "Shift personal→social identity, norm-governed not mindless"
+        ],
+        "answer": "Shift personal→social identity, norm-governed not mindless"
+      },
+      {
+        "q": "Policing based on Le Bon myth does?",
+        "options": [
+          "Prevents violence",
+          "Often precipitates confrontation it purports to prevent — self-fulfilling prophecy"
+        ],
+        "answer": "Often precipitates confrontation it purports to prevent — self-fulfilling prophecy"
+      }
+    ]
+  }
+]

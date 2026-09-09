@@ -1,0 +1,291 @@
+[
+  {
+    "id": "S-A1-01",
+    "cefr": "A1",
+    "task": "Personal Q&A (30s)",
+    "prompt": "What is your name? Where do you live? How old are you?",
+    "expected": "My name is Rina. I live in Bandung. I am 14 years old.",
+    "rubric_hint": "Simple is/are, name/age/place only, very hesitant ok",
+    "duration_s": 30
+  },
+  {
+    "id": "S-A1-02",
+    "cefr": "A1",
+    "task": "Personal Q&A",
+    "prompt": "What is your hobby?",
+    "expected": "My hobby is football. I like football very much.",
+    "duration_s": 30
+  },
+  {
+    "id": "S-A1-03",
+    "cefr": "A1",
+    "task": "Describe picture",
+    "prompt": "Describe this picture: a family in a park (one sentence each)",
+    "expected": "There are four people. They are in the park. They are happy.",
+    "duration_s": 40
+  },
+  {
+    "id": "S-A1-04",
+    "cefr": "A1",
+    "task": "Daily routine",
+    "prompt": "What do you do every morning?",
+    "expected": "I get up at six. I eat breakfast. I go to school.",
+    "duration_s": 30
+  },
+  {
+    "id": "S-A1-05",
+    "cefr": "A1",
+    "task": "Simple request",
+    "prompt": "Ask for the time",
+    "expected": "Excuse me, what time is it?",
+    "duration_s": 20
+  },
+  {
+    "id": "S-A1-06",
+    "cefr": "A1",
+    "task": "Numbers/prices",
+    "prompt": "How much is the book? (Answer: $5)",
+    "expected": "It is five dollars.",
+    "duration_s": 20
+  },
+  {
+    "id": "S-A2-01",
+    "cefr": "A2",
+    "task": "Personal + past",
+    "prompt": "What did you do last weekend? (40s)",
+    "expected": "Last weekend I went to the mall with my mother. We bought clothes and ate noodles. It was fun.",
+    "duration_s": 40
+  },
+  {
+    "id": "S-A2-02",
+    "cefr": "A2",
+    "task": "Describe place",
+    "prompt": "Describe your town (40s)",
+    "expected": "My town is small but clean. There is a market and a school. I like it because people are friendly.",
+    "duration_s": 45
+  },
+  {
+    "id": "S-A2-03",
+    "cefr": "A2",
+    "task": "Plans",
+    "prompt": "What will you do tomorrow?",
+    "expected": "Tomorrow I will visit my grandmother. I will go by bus in the morning.",
+    "duration_s": 35
+  },
+  {
+    "id": "S-A2-04",
+    "cefr": "A2",
+    "task": "Shopping dialogue",
+    "prompt": "Role-play: return a shirt that is too small",
+    "expected": "Hello, I bought this shirt yesterday but it is too small. Can I change it for a bigger size?",
+    "duration_s": 40
+  },
+  {
+    "id": "S-A2-05",
+    "cefr": "A2",
+    "task": "Compare",
+    "prompt": "Compare two phones you know",
+    "expected": "This phone is cheaper than that one. But that one has a better camera.",
+    "duration_s": 35
+  },
+  {
+    "id": "S-A2-06",
+    "cefr": "A2",
+    "task": "Directions",
+    "prompt": "How do you get to school?",
+    "expected": "I go straight and turn left. My school is next to the mosque.",
+    "duration_s": 30
+  },
+  {
+    "id": "S-B1-01",
+    "cefr": "B1",
+    "task": "Narrative (60s)",
+    "prompt": "Talk about a memorable trip you took. Where did you go, who with, what happened?",
+    "expected": "Last year I went to Bali with my family. We stayed near the beach and visited temples. The most memorable part was the traditional dance in Ubud. I have never seen anything like it before. If I have the chance, I will go again.",
+    "duration_s": 60
+  },
+  {
+    "id": "S-B1-02",
+    "cefr": "B1",
+    "task": "Opinion",
+    "prompt": "Do you prefer studying alone or with friends? Why?",
+    "expected": "I prefer studying with friends because we can help each other. When I don't understand something, my friend can explain. However, sometimes it is noisy, so I also study alone before exams.",
+    "duration_s": 60
+  },
+  {
+    "id": "S-B1-03",
+    "cefr": "B1",
+    "task": "Describe experience",
+    "prompt": "Describe a time you learned something difficult",
+    "expected": "Two years ago I learned to ride a motorbike. At first I was very nervous and I failed. But I practised every weekend and now I can ride well. It taught me not to give up.",
+    "duration_s": 60
+  },
+  {
+    "id": "S-B1-04",
+    "cefr": "B1",
+    "task": "Future plans",
+    "prompt": "What are your plans for next year?",
+    "expected": "Next year I will finish high school. If I pass the exam, I will study at university. I want to study English because I want to be a teacher.",
+    "duration_s": 55
+  },
+  {
+    "id": "S-B1-05",
+    "cefr": "B1",
+    "task": "Give advice",
+    "prompt": "Give advice to a friend who wants to learn English",
+    "expected": "You should practise every day, even for 30 minutes. Watching English videos can help. Also, try to speak with friends, don't be afraid of mistakes.",
+    "duration_s": 60
+  },
+  {
+    "id": "S-B1-06",
+    "cefr": "B1",
+    "task": "Compare past/present",
+    "prompt": "How has your town changed in the last 10 years?",
+    "expected": "My town has changed a lot. There are more buildings and a new mall. Life is more convenient, but there is also more traffic.",
+    "duration_s": 60
+  },
+  {
+    "id": "S-B2-01",
+    "cefr": "B2",
+    "task": "Argument (90s)",
+    "prompt": "Some people say social media does more harm than good. Do you agree?",
+    "expected": "While social media has drawbacks, such as addiction and misinformation, its benefits should not be dismissed. It connects people across distances and gives voice to marginalised groups. However, having been designed to maximise engagement, it can be harmful when used excessively. Therefore, the key is balanced use rather than prohibition.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-B2-02",
+    "cefr": "B2",
+    "task": "Describe + evaluate",
+    "prompt": "Describe a city you would like to live in and explain why",
+    "expected": "I would like to live in Singapore because it combines efficiency with green spaces. Having visited last year, I was impressed by the Park Connector Network which links parks with cycling paths. Although living costs are high, the quality of life compensates.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-B2-03",
+    "cefr": "B2",
+    "task": "Hypothetical",
+    "prompt": "If you could change one thing about your education, what would it be?",
+    "expected": "If I could change one thing, it would be to have had more practical projects. Although theoretical knowledge is important, we rarely apply it. Having completed an internship recently, I realised how valuable hands-on experience is.",
+    "duration_s": 85
+  },
+  {
+    "id": "S-B2-04",
+    "cefr": "B2",
+    "task": "Discuss trend",
+    "prompt": "Why do many young people want to be influencers?",
+    "expected": "It is often claimed that influencing is easy money, but that overlooks the intense competition. Moreover, social media platforms amplify the visibility of success while obscuring the majority who fail. Consequently, aspirations are shaped by survivorship bias.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-B2-05",
+    "cefr": "B2",
+    "task": "Problem-solution",
+    "prompt": "How can cities reduce traffic congestion?",
+    "expected": "While expanding roads has been the traditional response, evidence suggests it induces demand. More effective are investments in public transport and congestion pricing. Singapore, for instance, has shown that combining both can work.",
+    "duration_s": 85
+  },
+  {
+    "id": "S-B2-06",
+    "cefr": "B2",
+    "task": "Narrate with reflection",
+    "prompt": "Talk about a challenge you overcame",
+    "expected": "When I first started university, I struggled to manage time between coursework and a part-time job. I learned to prioritise and to say no. Having developed a weekly planning system, my grades actually improved despite working.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-C1-01",
+    "cefr": "C1",
+    "task": "Sophisticated argument (90s)",
+    "prompt": "Should AI be used to grade student essays? Discuss advantages and risks",
+    "expected": "Were AI to be used as a sole arbiter, I would be deeply concerned — not least because of the accountability vacuum that arises when an algorithm errs. That said, as an augmentative tool that diagnoses patterns across large cohorts, its potential is considerable. What is crucial is that teachers remain the architects of judgment, lest evaluative expertise atrophy.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-C1-02",
+    "cefr": "C1",
+    "task": "Abstract topic",
+    "prompt": "Does more choice make us happier?",
+    "expected": "Paradoxically, an overabundance of choice tends to breed dissatisfaction. Were consumers to satisfice rather than maximise, they would report higher wellbeing, yet the cultural imperative to optimise proves difficult to resist. What this reveals is that choice is symbolic as well as instrumental.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-C1-03",
+    "cefr": "C1",
+    "task": "Evaluate policy",
+    "prompt": "Should governments regulate social media design features like infinite scroll?",
+    "expected": "What distinguishes product design from speech is central here. Were regulators to frame restrictions as product safety rather than censorship, a coherent rationale emerges. Notwithstanding free-expression concerns, infinite scroll is not expression but engineered attention capture.",
+    "duration_s": 95
+  },
+  {
+    "id": "S-C1-04",
+    "cefr": "C1",
+    "task": "Hypothetical ethical",
+    "prompt": "If you could edit genes to prevent disease, should you? Where to draw line?",
+    "expected": "The substantive concern is not hubris but equity. Were germline editing to remain accessible only to the affluent, we would entrench a genetic divide that would dwarf current inequalities. Nevertheless, a blanket prohibition would deprive those who could be cured.",
+    "duration_s": 95
+  },
+  {
+    "id": "S-C1-05",
+    "cefr": "C1",
+    "task": "Describe nuanced",
+    "prompt": "Describe a book that changed your thinking",
+    "expected": "Not only did Ishiguro's novel unsettle my assumptions about memory, but it did so through self-deception rendered with such politeness that I found myself colluding. Were I to single out one lesson, it would be that unreliable narration can be ethically revealing.",
+    "duration_s": 90
+  },
+  {
+    "id": "S-C1-06",
+    "cefr": "C1",
+    "task": "Speculate future",
+    "prompt": "How will climate change affect where people live in 50 years?",
+    "expected": "Had adaptation been prioritised earlier, displacement might have been mitigated. As it stands, low-lying regions face existential pressure. Notwithstanding technological optimism, the political question is who bears the cost of relocation.",
+    "duration_s": 95
+  },
+  {
+    "id": "S-C2-01",
+    "cefr": "C2",
+    "task": "Subtle argument + irony (90s)",
+    "prompt": "Is impartiality in journalism possible or even desirable?",
+    "expected": "That impartiality should be equated with neutrality betrays a category mistake; every account necessarily selects and frames. Were we to defend objectivity, we should mean not the absence of standpoint but its disciplined disclosure — rendering it auditable so readers may discount for bias. That journalism currently performs neutrality while being incentivised to amplify is the deeper structural issue.",
+    "duration_s": 100
+  },
+  {
+    "id": "S-C2-02",
+    "cefr": "C2",
+    "task": "Philosophical",
+    "prompt": "Does luck undermine moral responsibility? (moral luck)",
+    "expected": "Nagel's vertiginous puzzle is that two equally reckless drivers who swerve identically are blamed differently by luck of outcome. Were constitutive luck — who we are — to be taken seriously, the very ground of moral assessment trembles. Little did we expect neuroscience to corroborate this with readiness potentials.",
+    "duration_s": 100
+  },
+  {
+    "id": "S-C2-03",
+    "cefr": "C2",
+    "task": "Aesthetic abstract",
+    "prompt": "Can impermanence be beautiful? Discuss wabi-sabi versus Western permanence",
+    "expected": "That impermanence should be the condition of beauty rather than its negation is precisely what wabi-sabi illuminates — the crack repaired with gold is beautiful because its history is integral, not despite it. To dismiss this as sentimentality is to overlook its ontology of process.",
+    "duration_s": 95
+  },
+  {
+    "id": "S-C2-04",
+    "cefr": "C2",
+    "task": "Geopolitical nuance",
+    "prompt": "Is the world becoming more multipolar or more fragmented?",
+    "expected": "The binary of multipolarity versus fragmentation collapses under scrutiny; patronage networks cut across ideological lines, and the war economy creates vested interests in perpetuation. Any settlement that ignores these granular realities, however normatively appealing, will be stillborn.",
+    "duration_s": 100
+  },
+  {
+    "id": "S-C2-05",
+    "cefr": "C2",
+    "task": "Crowd psychology critique",
+    "prompt": "Are crowds irrational?",
+    "expected": "Le Bon's proclamation that crowds render individuals barbaric has proven empirically threadbare. Contemporary social identity theory inverts it: participants shift from personal to social identity, acting as group members. The irony is that treating crowds as undifferentiated masses often precipitates the very confrontation policing purports to prevent.",
+    "duration_s": 95
+  },
+  {
+    "id": "S-C2-06",
+    "cefr": "C2",
+    "task": "Tech critique satirical",
+    "prompt": "Will an app solve loneliness?",
+    "expected": "That an app should 'disrupt' loneliness is, with exquisite irony, pitched by the ecosystem that engineered it. Substituting connectivity for connection and then selling more connectivity as remedy is, to borrow the quip, a cover-up that is the business model. One is reminded that the cover-up is worse than the crime, except here they are identical.",
+    "duration_s": 100
+  }
+]

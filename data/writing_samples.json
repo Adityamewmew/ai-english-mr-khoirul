@@ -1,0 +1,506 @@
+[
+  {
+    "id": "W-A1-01",
+    "cefr": "A1",
+    "prompt": "Write a postcard to a friend (30-40 words).",
+    "text": "Hello Ana! I am in Bali. It is very nice. The beach is big and beautiful. I swim every day. I love Bali. See you soon! Love, Sari.",
+    "word_count": 26,
+    "rubric": {
+      "content": 3,
+      "communicative": 3,
+      "organisation": 2,
+      "language": 2
+    },
+    "note": "Simple present, and/but only, spelling ok, no complex."
+  },
+  {
+    "id": "W-A1-02",
+    "cefr": "A1",
+    "prompt": "Fill form: introduce yourself",
+    "text": "My name is Budi. I am 15 years old. I live in Jakarta. I am a student. My hobby is football.",
+    "word_count": 18,
+    "rubric": {
+      "content": 2,
+      "communicative": 2,
+      "organisation": 2,
+      "language": 2
+    },
+    "note": "Very short, basic pattern My name is... I am..."
+  },
+  {
+    "id": "W-A1-03",
+    "cefr": "A1",
+    "prompt": "Describe your family",
+    "text": "My family have 4 people. Mother, father, sister and me. My mother is cook. My father go to work every day. My sister is 10. I love my family.",
+    "word_count": 27,
+    "rubric": {
+      "content": 3,
+      "communicative": 2,
+      "organisation": 2,
+      "language": 1
+    },
+    "note": "Agreement errors (have/has, is/are), but understandable A1"
+  },
+  {
+    "id": "W-A1-04",
+    "cefr": "A1",
+    "prompt": "Describe your house",
+    "text": "My house is small. It have 2 bedrooms. It is blue. I like my house. It near school.",
+    "word_count": 17,
+    "rubric": {
+      "content": 2,
+      "communicative": 2,
+      "organisation": 1,
+      "language": 1
+    },
+    "note": "Missing be: It near school → error typical A1"
+  },
+  {
+    "id": "W-A1-05",
+    "cefr": "A1",
+    "prompt": "Write about your pet",
+    "text": "I have a cat. It name is Mimi. It is white. It is cute. I give it fish. I love my cat.",
+    "word_count": 20,
+    "rubric": {
+      "content": 3,
+      "communicative": 3,
+      "organisation": 2,
+      "language": 2
+    },
+    "note": "Its vs It error but clear"
+  },
+  {
+    "id": "W-A1-06",
+    "cefr": "A1",
+    "prompt": "Message to friend",
+    "text": "Hi Rina! How are you? I am fine. Let's play tomorrow at 3 o'clock in the park. Bye!",
+    "word_count": 17,
+    "rubric": {
+      "content": 3,
+      "communicative": 3,
+      "organisation": 2,
+      "language": 2
+    },
+    "note": "Formulaic greeting + invitation"
+  },
+  {
+    "id": "W-A2-01",
+    "cefr": "A2",
+    "prompt": "Email to friend about holiday (60 words)",
+    "text": "Hi Tom, Last holiday I went to Yogyakarta with my family. We went by train. We visited the palace and tried gudeg. It was very delicious. We stayed for three days and took many photos. I want to go again next year. How was your holiday? Write soon! Best, Dina",
+    "word_count": 45,
+    "rubric": {
+      "content": 4,
+      "communicative": 3,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Past simple, very short linked text, personal letter conventions"
+  },
+  {
+    "id": "W-A2-02",
+    "cefr": "A2",
+    "prompt": "Describe your hobby",
+    "text": "My hobby is playing badminton. I play every Saturday with my friend at the school hall. I started two years ago. At first it was difficult but now I can play well. My father taught me. I want to join a competition next year.",
+    "word_count": 42,
+    "rubric": {
+      "content": 4,
+      "communicative": 3,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Past simple + present, because/but, simple connectors"
+  },
+  {
+    "id": "W-A2-03",
+    "cefr": "A2",
+    "prompt": "Write about your school",
+    "text": "My school is not very big but it is very clean. There are 20 classrooms and a small library. My favourite place is the canteen because the food is cheap and delicious. The teachers are kind. I have many friends there. I like going to school every day.",
+    "word_count": 43,
+    "rubric": {
+      "content": 4,
+      "communicative": 3,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "There are, because, but — A2 range"
+  },
+  {
+    "id": "W-A2-04",
+    "cefr": "A2",
+    "prompt": "Message about birthday",
+    "text": "Dear Sari, Thank you for your invitation to your birthday party. I would love to come on Saturday. What time does it start? Do you need me to bring anything? I will bring a small gift. See you soon! Love, Ani",
+    "word_count": 36,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Invitation reply, would love, question forms"
+  },
+  {
+    "id": "W-A2-05",
+    "cefr": "A2",
+    "prompt": "Describe daily routine",
+    "text": "I get up at six o'clock every day. Then I take a shower and have breakfast with my family. I go to school by bus. School starts at seven and finishes at two. After school I do my homework and play games. I go to bed at nine.",
+    "word_count": 44,
+    "rubric": {
+      "content": 4,
+      "communicative": 3,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Present simple routine, then/after, time phrases"
+  },
+  {
+    "id": "W-A2-06",
+    "cefr": "A2",
+    "prompt": "Write about shopping",
+    "text": "Yesterday I went to the mall with my mother. We bought a new dress for my sister. It was blue and very pretty. It cost 200,000 rupiah. My mother also bought shoes. We were very tired but happy after shopping.",
+    "word_count": 38,
+    "rubric": {
+      "content": 4,
+      "communicative": 3,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Past simple narrative, and/but, adjectives"
+  },
+  {
+    "id": "W-B1-01",
+    "cefr": "B1",
+    "prompt": "Email to friend about moving (80 words)",
+    "text": "Hi Sarah, I have great news! We moved to a new house last month. It is bigger than our old house and has a small garden. At first I felt sad because I missed my old friends, but now I have made new friends at my new school. My new school is not far and I ride my bicycle there every day. If you have time, please visit me next holiday. I would love to show you my new room! Write soon. Love, Maya",
+    "word_count": 78,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 4,
+      "language": 3
+    },
+    "note": "Present perfect (have made), although? No — but B1: comparatives, conditionals 1, past + present mix"
+  },
+  {
+    "id": "W-B1-02",
+    "cefr": "B1",
+    "prompt": "Opinion: Is online learning good?",
+    "text": "In my opinion online learning has both advantages and disadvantages. The main advantage is that students can study at home and save time. They can also watch lessons again if they don't understand. However the disadvantage is that students may feel lonely and they need good internet. I think online learning is useful but schools should use both online and face-to-face methods. This is the best way for students to learn well.",
+    "word_count": 72,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 4,
+      "language": 3
+    },
+    "note": "However, because, if, both…and, modals can/should"
+  },
+  {
+    "id": "W-B1-03",
+    "cefr": "B1",
+    "prompt": "Describe a memorable trip",
+    "text": "Last year I went to Lombok with my cousins. We travelled by plane and stayed in a small hotel near the beach. We swam every morning and visited traditional villages in the afternoon. I have never seen such beautiful beaches before. The people were very friendly and the food was delicious. I learned many things about Lombok culture on this trip. I will never forget it.",
+    "word_count": 68,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 4,
+      "language": 4
+    },
+    "note": "Past + present perfect (have never seen), such..."
+  },
+  {
+    "id": "W-B1-04",
+    "cefr": "B1",
+    "prompt": "Letter complaining",
+    "text": "Dear Sir/Madam, I am writing to complain about the hotel I stayed in last weekend. I booked a double room but I was given a small single room. Moreover the bathroom was not clean and the air conditioner did not work. I asked the staff to change my room but they said the hotel was full. I would like a refund. I look forward to your reply. Yours faithfully, Andi",
+    "word_count": 71,
+    "rubric": {
+      "content": 5,
+      "communicative": 4,
+      "organisation": 4,
+      "language": 4
+    },
+    "note": "Formal letter conventions, past, passive (was given, was not clean)"
+  },
+  {
+    "id": "W-B1-05",
+    "cefr": "B1",
+    "prompt": "Future plans",
+    "text": "In the future I want to be an English teacher. I have studied English for two years and I enjoy it very much. If I pass the university entrance exam, I will study English Education. I know it will be difficult but I will try hard. My parents support my plan and I hope I can achieve my dream.",
+    "word_count": 52,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 3,
+      "language": 3
+    },
+    "note": "Future with will, if conditional, have studied"
+  },
+  {
+    "id": "W-B1-06",
+    "cefr": "B1",
+    "prompt": "Describe festival",
+    "text": "In my town we have a harvest festival every August. It starts with a parade and traditional music. People wear colourful clothes and dance in the streets. In the evening there are fireworks. Last year more than 5,000 people came to the festival. It is a wonderful event that brings everyone together. I always look forward to it.",
+    "word_count": 58,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 4,
+      "language": 4
+    },
+    "note": "Present for routine + past for specific, that clause"
+  },
+  {
+    "id": "W-B2-01",
+    "cefr": "B2",
+    "prompt": "Essay: Should university education be free? (200w)",
+    "text": "It is often argued that university education should be free for all students. While this idea is attractive, I believe it is not practical for most countries. On the one hand, free education would give equal opportunities to poor students and help reduce inequality. Moreover society as a whole would benefit because more people would be qualified for skilled jobs. On the other hand, governments would need to raise taxes significantly, which could be unpopular. Although some countries such as Germany have made higher education free, they have strong tax systems and well-funded public sectors. In countries where public funding is limited, making universities free might reduce quality because there would be less money for facilities and research. Having considered these arguments, I believe a better approach is to provide scholarships and low-interest loans for students who need them, while still charging fees for those who can afford to pay. This would ensure both accessibility and quality.",
+    "word_count": 148,
+    "rubric": {
+      "content": 5,
+      "communicative": 4,
+      "organisation": 5,
+      "language": 4
+    },
+    "note": "Although/while/moreover/having considered, passive (is argued), conditionals, cohesive devices B2+"
+  },
+  {
+    "id": "W-B2-02",
+    "cefr": "B2",
+    "prompt": "Report: Social media pros/cons (180w)",
+    "text": "The aim of this report is to examine the effects of social media on teenagers. Recent surveys have shown that teenagers spend an average of three hours daily on platforms such as Instagram and TikTok. The main advantage is that social media allows young people to stay connected with friends and to express themselves creatively. However it also has serious drawbacks. Having been exposed to idealised images, many teenagers develop low self-esteem and anxiety. It is claimed that heavy use can disrupt sleep and reduce concentration. Although it would be unrealistic to ban social media, schools and parents should promote balanced use. Therefore the recommendation is that teenagers be encouraged to limit screen time and to prioritise face-to-face interaction.",
+    "word_count": 118,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 4
+    },
+    "note": "Report register, passive reporting (is claimed, have shown), although/therefore, gerunds"
+  },
+  {
+    "id": "W-B2-03",
+    "cefr": "B2",
+    "prompt": "Essay: Remote work is future",
+    "text": "Although remote work was once considered unusual, it has become common since the pandemic. Many employees argue that working from home improves productivity because there are fewer distractions. Employers also benefit because they can save on office costs. However, critics point out that remote work may weaken team cohesion and make collaboration more difficult. It could also disadvantage young employees who need mentoring. On balance, while remote work offers significant advantages, it is unlikely to replace office work entirely. A hybrid model, which combines both approaches, seems to be the most sustainable solution for most companies.",
+    "word_count": 94,
+    "rubric": {
+      "content": 4,
+      "communicative": 4,
+      "organisation": 5,
+      "language": 4
+    },
+    "note": "Although, while, however, on balance, gerund, modal could"
+  },
+  {
+    "id": "W-B2-04",
+    "cefr": "B2",
+    "prompt": "Formal letter application",
+    "text": "Dear Hiring Manager, I am writing to apply for the position of Marketing Intern advertised on your website. I am currently in my third year of Business Administration at Gadjah Mada University, where I have maintained a GPA of 3.7. Having completed an internship at a digital agency last summer, I have gained experience in social media management and data analysis. Moreover I am fluent in English and proficient in Adobe Photoshop. I have attached my CV and would be grateful for the opportunity to discuss my application. I look forward to hearing from you. Yours sincerely, Aditya",
+    "word_count": 98,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 4
+    },
+    "note": "Formal letter, having completed..., present perfect, proficient"
+  },
+  {
+    "id": "W-B2-05",
+    "cefr": "B2",
+    "prompt": "Article: Importance reading",
+    "text": "In an era dominated by short videos and instant messages, the habit of sustained reading is in decline. This is a matter of concern because reading does far more than convey information; it trains attention, fosters empathy, and builds vocabulary. Studies have shown that people who read regularly have better concentration and are more adept at understanding different perspectives. While it is true that digital media offers convenience, it rarely requires the deep processing that books demand. Therefore schools should actively promote reading programmes, not as an old-fashioned chore but as an essential skill for critical thinking.",
+    "word_count": 88,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "While, therefore, not as…but as, have shown, dominant"
+  },
+  {
+    "id": "W-B2-06",
+    "cefr": "B2",
+    "prompt": "Opinion: Tourism good?",
+    "text": "Tourism is often seen as beneficial because it creates jobs and generates income. However mass tourism can have detrimental effects. Popular destinations become overcrowded, which damages both the environment and the visitor experience. Having visited Bali during peak season, I witnessed firsthand how traffic and waste detract from the island's beauty. Although governments have introduced visitor caps in some areas, enforcement remains inconsistent. Consequently a more sustainable approach is needed — one that prioritises quality over quantity and ensures local communities benefit directly.",
+    "word_count": 78,
+    "rubric": {
+      "content": 5,
+      "communicative": 4,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "However, having visited..., although, consequently, prioritises"
+  },
+  {
+    "id": "W-C1-01",
+    "cefr": "C1",
+    "prompt": "Essay: AI in education — opportunity or threat? (250w)",
+    "text": "What concerns me most about the rapid integration of artificial intelligence into education is not its technical capability, which is considerable, but the pedagogical vacuum in which it is often deployed. Were schools to adopt AI as a mere labour-saving device, the result would be the automation of mediocrity: faster marking, but not deeper learning. The true potential lies elsewhere — in using AI to diagnose misconceptions and to tailor feedback at a granularity no human teacher could feasibly achieve for thirty students simultaneously. Nevertheless this potential is contingent on teachers remaining the architects of learning, not its bystanders. It is imperative that curricula emphasise evaluative judgment, lest students cede not only tasks but also thinking to machines. Were this to happen, the very skills that AI cannot replicate — critical synthesis, ethical reasoning, creative leap — would atrophy precisely when they are most needed. Notwithstanding these risks, a blanket prohibition would be equally misguided, as it would deprive students of literacy in the defining technology of their generation. Ultimately the question is not whether to integrate AI, but how to do so in a manner that augments rather than supplants human agency. That such a balance is achievable is evident from early pilots where AI handles routine feedback while teachers focus on Socratic dialogue.",
+    "word_count": 198,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Cleft (What concerns), inversion (Were schools...), hedging, nominalisation, cohesive Nevertheless/Notwithstanding"
+  },
+  {
+    "id": "W-C1-02",
+    "cefr": "C1",
+    "prompt": "Report: Decoupling growth from emissions",
+    "text": "The aim of this report is to assess whether economic growth can be decoupled from carbon emissions. Recent evidence from several advanced economies suggests that absolute decoupling is feasible. Having invested heavily in renewables, Denmark has cut emissions by forty percent while sustaining growth. What is striking is that this was achieved not through deindustrialisation alone but through genuine efficiency gains. However, consumption-based accounting tells a less sanguine story. Were imports to be included, the apparent decoupling would diminish considerably, as many carbon-intensive goods are now manufactured abroad. Moreover the historical carbon debt of advanced economies remains unaddressed. Therefore while decoupling offers a valuable precedent, its transferability to rapidly industrialising nations is far from assured. It is recommended that policy frameworks adopt consumption-based metrics and that support for green technology transfer be substantially increased.",
+    "word_count": 132,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Having invested, What is striking cleft, Were imports... inversion, passive reporting"
+  },
+  {
+    "id": "W-C1-03",
+    "cefr": "C1",
+    "prompt": "Proposal: Bilingual education",
+    "text": "Bilingual education was once feared to burden the developing mind, yet contemporary research decisively repudiates this assumption. Were children to be exposed to two languages from infancy, they would develop enhanced executive control — the capacity to inhibit one language while activating the other, an exercise that generalises to non-linguistic domains. Not only would this confer cognitive advantages, but it would also delay, probabilistically, the onset of neurodegenerative symptoms. Nevertheless implementation requires sustained, active use of both languages; passive exposure alone is insufficient. It is therefore proposed that schools adopt a dual-immersion model, wherein subjects are taught in alternating languages, rather than confining the second language to a discrete subject. Such a model is admittedly resource-intensive, but the evidence suggests the investment pays dividends in both academic and health outcomes.",
+    "word_count": 128,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Inversion, cleft, hedging probabilistically, nominalisation"
+  },
+  {
+    "id": "W-C1-04",
+    "cefr": "C1",
+    "prompt": "Article: Paradox of choice",
+    "text": "That an abundance of choice should breed dissatisfaction is, at first glance, paradoxical. Conventional wisdom holds that more options maximise the probability of an optimal match. Yet the proliferation of choice, from streaming catalogues to dating apps, has engendered decision paralysis and the nagging sense that a forgone alternative might have been superior. Were consumers to satisfice — to accept a good-enough option — they would report higher wellbeing, yet the injunction to optimise remains culturally hegemonic. What this reveals is that choice is not merely an instrumental good but a symbolic one; to choose maximally is to perform competence. The remedy, therefore, is not to eliminate choice but to curate it — to impose, paradoxically, a constraint that liberates.",
+    "word_count": 108,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Nominalisation, That-clause fronted, inversion Were..., cleft What this reveals"
+  },
+  {
+    "id": "W-C1-05",
+    "cefr": "C1",
+    "prompt": "Essay: Should we regulate social media like tobacco?",
+    "text": "The analogy between social media and tobacco is more apt than it initially appears. Both products were marketed as benign, both were later shown to exploit known vulnerabilities — nicotine in one case, variable rewards in the other — and both disproportionately affect the young. What distinguishes them is the regulatory lag: whereas tobacco is now heavily circumscribed, social media remains largely self-governed, despite mounting evidence of harm. Were regulators to apply the same precautionary principle, restrictions on design features that maximise engagement — infinite scroll, autoplay — would be a logical first step. Notwithstanding the importance of free expression, product design is not speech. Consequently, framing regulation as censorship misconstrues the issue; what is at stake is not what can be said, but how attention is engineered. That such a framing has been resisted owes less to constitutional principle than to lobbying power.",
+    "word_count": 132,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Both...both, were regulators, notwithstanding, what is at stake cleft"
+  },
+  {
+    "id": "W-C1-06",
+    "cefr": "C1",
+    "prompt": "Formal letter: Complaint policy",
+    "text": "Dear Director, I am writing to express concern about the recently introduced attendance policy, which mandates dismissal after three absences. While I appreciate the need for consistency, the policy is, in my view, unduly rigid. Not only does it fail to distinguish between avoidable and unavoidable absences, but it also disproportionately penalises students with caregiving responsibilities. Were the policy to be amended to allow for documented extenuating circumstances, it would retain its disciplinary intent while demonstrating institutional empathy. It is imperative that policies be both firm and humane. I would welcome the opportunity to discuss this matter further. Yours faithfully, Nabila",
+    "word_count": 96,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Not only inversion, were...to be amended, imperative subjunctive"
+  },
+  {
+    "id": "W-C2-01",
+    "cefr": "C2",
+    "prompt": "Essay: Is impartiality possible? (250w)",
+    "text": "That journalism can be impartial is a proposition that, upon scrutiny, dissolves into a category mistake — as if perspective were a blemish to be expunged rather than the very condition of understanding. Every account, however austere, necessarily selects, frames, and foregrounds; impartiality, if it means the absence of standpoint, is not an ideal but an impossibility. What is at stake, therefore, is not the elimination of perspective but its disciplined disclosure. To conflate objectivity with neutrality is to misread the epistemic virtue: objectivity entails not that one has no commitments, but that one is willing to hold them defeasibly, to test them against countervailing evidence. The reporter's obligation is not to stand nowhere — a view from nowhere is, as Nagel observed, itself a view from somewhere — but to render her standpoint auditable, so that the reader may discount for bias. Were this norm to be widely internalised, the discourse would shift from the sterile theatre of balance — where every fact is offset by a counter-fact, however spurious — to a more robust accountability, where claims are adjudicated by their warrant, not their symmetry. That such a shift remains elusive owes less to philosophical confusion than to economic incentive: engagement rewards the performance of neutrality while penalising the labour of transparency. In this sense, the crisis of impartiality is less epistemological than structural — a symptom of a business model that profits from the ambiguity it purports to lament.",
+    "word_count": 208,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Fronted That-clause, cleft What is at stake, inversion Were..., nominalisation, hedging, sophisticated discourse"
+  },
+  {
+    "id": "W-C2-02",
+    "cefr": "C2",
+    "prompt": "Essay: Wabi-sabi and modernity",
+    "text": "Wabi-sabi, often platitudinously rendered as 'rustic simplicity', more precisely denotes an aesthetic attuned to impermanence, imperfection, and incompleteness — the weathered stone, the irregular glaze, the bowl repaired with gold where the crack is illuminated rather than concealed. Its philosophical import lies not in nostalgia but in ontology: being is construed as process, not substance. That Western aesthetics has historically valorised permanence — the marble that defies time — renders wabi-sabi a quiet but radical reorientation. To cherish what is precisely because it will not endure is to invert the logic of consumption, which fetishises the new and discards the old. Notwithstanding its apparent quietism, wabi-sabi is thus profoundly subversive in an age of planned obsolescence. That it, too, will pass is not a refutation but its ultimate confirmation.",
+    "word_count": 122,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Parenthetical em dashes, fronted That-clause, attenuated hedging, nominalisation"
+  },
+  {
+    "id": "W-C2-03",
+    "cefr": "C2",
+    "prompt": "Essay: Moral luck",
+    "text": "Nagel's problem of moral luck is vertiginous precisely because it renders our reactive attitudes incoherent. Two drivers, equally reckless, swerve identically; one, by luck, kills a child who darts into the road, the other does not. We blame the former more, yet by what warrant, if their agency was identical and only luck differentiated outcome? Were we to accept that constitutive luck — the luck of who we are — permeates agency itself, then the very ground of moral assessment trembles. Not that morality is thereby vacuous, but that its pretence to immunity from luck stands refuted. Little did Nagel anticipate that his puzzle would find empirical corroboration in neuroscience, where readiness potentials precede conscious decision by milliseconds, suggesting that the will, if it exists, is less sovereign than we imagined.",
+    "word_count": 118,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Inversion Little did..., subjunctive Were we to accept, nominalisation vertiginous"
+  },
+  {
+    "id": "W-C2-04",
+    "cefr": "C2",
+    "prompt": "Essay: Decoupling under scrutiny",
+    "text": "That decoupling — the severing of growth from emissions — should be celebrated as proof of concept is understandable, but to extrapolate from territorial accounting is to indulge in a statistical artefact. Had consumption-based metrics been adopted, the apparent miracle would have been revealed as, in large part, an exercise in carbon arbitrage: emissions not reduced but relocated. Moreover, the historical carbon debt — the cumulative appropriation of atmospheric commons by early industrialisers — remains unacknowledged in frameworks that reset the clock at 1990. Were equity to be taken seriously, the remaining budget would be allocated not per capita in the present but in recognition of past appropriation. That such a reckoning is politically infeasible does not make it any less analytically correct. Notwithstanding the elegance of green-growth narratives, the question that persists is whether prosperity can be reconceived without the compulsion to grow at all.",
+    "word_count": 134,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Inversion Had...been, fronted That-clause, hedging, nominalisation"
+  },
+  {
+    "id": "W-C2-05",
+    "cefr": "C2",
+    "prompt": "Essay: Free speech paradox",
+    "text": "The paradox of deplatforming is that in attempting to deny a platform to noxious views, it inadvertently platforms the very narrative of martyrdom those views crave. Free speech, properly understood, is not the absence of consequence but the presence of contestation. To sanitise the public square of all discomfort — to render it, in effect, anodyne — is to infantilise it. That infantilised publics are brittle, not resilient, is a lesson history has taught at great cost. Were we to defend speech on the grounds of resilience rather than virtue, we would need to tolerate not merely the agreeable but the discomforting, and to equip citizens not with censorship but with the capacity for rebuttal. Not to do so is to cede the ground of legitimation to those who claim that truth fears examination.",
+    "word_count": 118,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Nominalisation, inversion Were we..., fronted That-clause, hedging"
+  },
+  {
+    "id": "W-C2-06",
+    "cefr": "C2",
+    "prompt": "Essay: Euro tragedy",
+    "text": "The tragedy of the euro is not that integration went too far but that it stopped halfway — monetary union without fiscal union, a central bank without a sovereign, credit without a lender of last resort. Member states, having borrowed in what was effectively a foreign currency, found themselves subject to sudden-stop dynamics more commonly associated with emerging markets. That austerity — simultaneous fiscal retrenchment across interdependent economies — should have amplified the downturn was entirely predictable within a monetary union, yet it was prescribed as if the eurozone were a collection of discrete households. Little did the architects anticipate that ordoliberal aversion to moral hazard would itself become a profound moral hazard, entrenching a hierarchy of states within a purported community of equals.",
+    "word_count": 108,
+    "rubric": {
+      "content": 5,
+      "communicative": 5,
+      "organisation": 5,
+      "language": 5
+    },
+    "note": "Ellipsis dash, having borrowed..., fronted That-clause, inversion Little did..."
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "G-A1-01",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "___ name is Anna.",
+    "options": [
+      "My",
+      "I",
+      "Me",
+      "Mine"
+    ],
+    "answer": "My",
+    "explanation": "Possessive adjective before noun"
+  },
+  {
+    "id": "G-A1-02",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "There ___ two cars in front of the house.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "There are + plural"
+  },
+  {
+    "id": "G-A1-03",
+    "cefr": "A1",
+    "type": "vocab",
+    "question": "I ___ to school at seven o'clock.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "went"
+    ],
+    "answer": "go",
+    "explanation": "Present simple with I"
+  },
+  {
+    "id": "G-A1-04",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "She ___ a doctor.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "He/She/It is"
+  },
+  {
+    "id": "G-A1-05",
+    "cefr": "A1",
+    "type": "vocab",
+    "question": "Opposite of 'big' is ___",
+    "options": [
+      "large",
+      "small",
+      "tall",
+      "huge"
+    ],
+    "answer": "small",
+    "explanation": "Antonym"
+  },
+  {
+    "id": "V-A1-06",
+    "cefr": "A1",
+    "type": "vocab",
+    "question": "I drink ___ every morning.",
+    "options": [
+      "coffee",
+      "car",
+      "table",
+      "pen"
+    ],
+    "answer": "coffee",
+    "explanation": "Common noun: drink"
+  },
+  {
+    "id": "G-A1-07",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "Can you ___ English?",
+    "options": [
+      "speak",
+      "speaks",
+      "speaking",
+      "spoke"
+    ],
+    "answer": "speak",
+    "explanation": "Can + base verb"
+  },
+  {
+    "id": "G-A1-08",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "___ you from Japan?",
+    "options": [
+      "Is",
+      "Are",
+      "Am",
+      "Be"
+    ],
+    "answer": "Are",
+    "explanation": "Are you...?"
+  },
+  {
+    "id": "V-A1-09",
+    "cefr": "A1",
+    "type": "vocab",
+    "question": "My mother is very ___ (kind)",
+    "options": [
+      "kind",
+      "unkind",
+      "kindly",
+      "kindness"
+    ],
+    "answer": "kind",
+    "explanation": "Adjective"
+  },
+  {
+    "id": "G-A1-10",
+    "cefr": "A1",
+    "type": "grammar",
+    "question": "I have ___ apple.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "-"
+    ],
+    "answer": "an",
+    "explanation": "an before vowel sound"
+  },
+  {
+    "id": "G-A2-01",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "I ___ to Bali last year.",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+    ],
+    "answer": "went",
+    "explanation": "Past simple irregular"
+  },
+  {
+    "id": "G-A2-02",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "She ___ in Jakarta for two years.",
+    "options": [
+      "lives",
+      "lived",
+      "has lived",
+      "is living"
+    ],
+    "answer": "has lived",
+    "explanation": "Present perfect for duration (borderline A2/B1)"
+  },
+  {
+    "id": "G-A2-03",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "This book is ___ than that one.",
+    "options": [
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "interestinger"
+    ],
+    "answer": "more interesting",
+    "explanation": "Comparative longer adjective"
+  },
+  {
+    "id": "G-A2-04",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "I was ___ when the phone rang.",
+    "options": [
+      "cook",
+      "cooking",
+      "cooked",
+      "cooks"
+    ],
+    "answer": "cooking",
+    "explanation": "Past continuous: was cooking"
+  },
+  {
+    "id": "V-A2-05",
+    "cefr": "A2",
+    "type": "vocab",
+    "question": "We need to ___ a hotel before we travel.",
+    "options": [
+      "book",
+      "cook",
+      "look",
+      "take"
+    ],
+    "answer": "book",
+    "explanation": "Collocation: book a hotel"
+  },
+  {
+    "id": "G-A2-06",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "There isn't ___ milk in the fridge.",
+    "options": [
+      "many",
+      "much",
+      "a lot",
+      "some"
+    ],
+    "answer": "much",
+    "explanation": "Much + uncountable negative"
+  },
+  {
+    "id": "G-A2-07",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "I'm going ___ visit my grandmother tomorrow.",
+    "options": [
+      "in",
+      "to",
+      "at",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "Going to + verb"
+  },
+  {
+    "id": "V-A2-08",
+    "cefr": "A2",
+    "type": "vocab",
+    "question": "Opposite of 'expensive' is ___",
+    "options": [
+      "cheap",
+      "cheep",
+      "costly",
+      "pricey"
+    ],
+    "answer": "cheap",
+    "explanation": "Antonym"
+  },
+  {
+    "id": "G-A2-09",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "He ___ like football when he was young.",
+    "options": [
+      "didn't use to",
+      "didn't used to",
+      "didn't use",
+      "used not"
+    ],
+    "answer": "didn't use to",
+    "explanation": "Used to negative"
+  },
+  {
+    "id": "G-A2-10",
+    "cefr": "A2",
+    "type": "grammar",
+    "question": "___ you help me, please?",
+    "options": [
+      "Could",
+      "Must",
+      "Should",
+      "Need"
+    ],
+    "answer": "Could",
+    "explanation": "Polite request"
+  },
+  {
+    "id": "G-B1-01",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "I ___ English for three years.",
+    "options": [
+      "learn",
+      "have learned / have been learning",
+      "learned",
+      "am learning"
+    ],
+    "answer": "have learned / have been learning",
+    "explanation": "Present perfect for duration"
+  },
+  {
+    "id": "G-B1-02",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "If it ___ tomorrow, we will stay home.",
+    "options": [
+      "rains",
+      "will rain",
+      "rained",
+      "raining"
+    ],
+    "answer": "rains",
+    "explanation": "First conditional: If + present, will"
+  },
+  {
+    "id": "G-B1-03",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "The book ___ by many people.",
+    "options": [
+      "is read",
+      "reads",
+      "has read",
+      "reading"
+    ],
+    "answer": "is read",
+    "explanation": "Passive present simple"
+  },
+  {
+    "id": "G-B1-04",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "She said she ___ tired.",
+    "options": [
+      "is",
+      "was",
+      "has been",
+      "will be"
+    ],
+    "answer": "was",
+    "explanation": "Reported speech backshift"
+  },
+  {
+    "id": "V-B1-05",
+    "cefr": "B1",
+    "type": "vocab",
+    "question": "We should ___ our carbon footprint.",
+    "options": [
+      "reduce",
+      "deduce",
+      "induce",
+      "produce"
+    ],
+    "answer": "reduce",
+    "explanation": "Collocation: reduce footprint"
+  },
+  {
+    "id": "G-B1-06",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "I have never ___ such a beautiful place.",
+    "options": [
+      "see",
+      "seen",
+      "saw",
+      "seeing"
+    ],
+    "answer": "seen",
+    "explanation": "Present perfect + ever/never + past participle"
+  },
+  {
+    "id": "G-B1-07",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "Although it was raining, ___",
+    "options": [
+      "we went out",
+      "we didn't go out",
+      "we go out",
+      "we will go out"
+    ],
+    "answer": "we went out",
+    "explanation": "Although + concession"
+  },
+  {
+    "id": "V-B1-08",
+    "cefr": "B1",
+    "type": "vocab",
+    "question": "The company will ___ a new product next month.",
+    "options": [
+      "launch",
+      "lunch",
+      "branch",
+      "crunch"
+    ],
+    "answer": "launch",
+    "explanation": "Launch a product"
+  },
+  {
+    "id": "G-B1-09",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "If I ___ enough money, I would travel around the world.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "has"
+    ],
+    "answer": "had",
+    "explanation": "Second conditional: If + past, would"
+  },
+  {
+    "id": "G-B1-10",
+    "cefr": "B1",
+    "type": "grammar",
+    "question": "You ___ wear a helmet when riding a motorbike.",
+    "options": [
+      "should",
+      "would",
+      "might",
+      "could"
+    ],
+    "answer": "should",
+    "explanation": "Advice: should"
+  },
+  {
+    "id": "G-B2-01",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "___ the rain, the event continued.",
+    "options": [
+      "Despite",
+      "Although",
+      "However",
+      "Whereas"
+    ],
+    "answer": "Despite",
+    "explanation": "Despite + noun"
+  },
+  {
+    "id": "G-B2-02",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "It is claimed that ___",
+    "options": [
+      "the method works",
+      "the method is worked",
+      "the method has worked",
+      "the method working"
+    ],
+    "answer": "the method works",
+    "explanation": "Passive reporting: It is claimed that + clause"
+  },
+  {
+    "id": "G-B2-03",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "Having ___ the report, she presented findings.",
+    "options": [
+      "finished",
+      "been finished",
+      "finishing",
+      "had finished"
+    ],
+    "answer": "finished",
+    "explanation": "Perfect participle: Having finished..."
+  },
+  {
+    "id": "G-B2-04",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "If I had known, I ___ you.",
+    "options": [
+      "would help",
+      "would have helped",
+      "will help",
+      "helped"
+    ],
+    "answer": "would have helped",
+    "explanation": "Third conditional"
+  },
+  {
+    "id": "V-B2-05",
+    "cefr": "B2",
+    "type": "vocab",
+    "question": "The policy will have significant ___ on the economy.",
+    "options": [
+      "impact",
+      "compact",
+      "contact",
+      "extract"
+    ],
+    "answer": "impact",
+    "explanation": "Impact on"
+  },
+  {
+    "id": "G-B2-06",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "She ___ that she had never been there before.",
+    "options": [
+      "denied",
+      "said",
+      "told",
+      "spoke"
+    ],
+    "answer": "said",
+    "explanation": "Reporting verb + that"
+  },
+  {
+    "id": "G-B2-07",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "Not only ___ late, but he also forgot documents.",
+    "options": [
+      "he was",
+      "was he",
+      "he is",
+      "is he"
+    ],
+    "answer": "was he",
+    "explanation": "Inversion: Not only + auxiliary inversion (C1/B2 border)"
+  },
+  {
+    "id": "V-B2-08",
+    "cefr": "B2",
+    "type": "vocab",
+    "question": "We need to ___ this issue as soon as possible.",
+    "options": [
+      "address",
+      "dress",
+      "press",
+      "stress"
+    ],
+    "answer": "address",
+    "explanation": "Address an issue = deal with"
+  },
+  {
+    "id": "G-B2-09",
+    "cefr": "B2",
+    "type": "grammar",
+    "question": "The man ___ house was burgled is my neighbour.",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "Relative pronoun whose + noun"
+  },
+  {
+    "id": "G-B2-10",
+    "cefr": "B2",
+    "type": "vocab",
+    "question": "Opposite of 'scarce' is ___",
+    "options": [
+      "abundant",
+      "scarcity",
+      "scared",
+      "rare"
+    ],
+    "answer": "abundant",
+    "explanation": "Antonym"
+  },
+  {
+    "id": "G-C1-01",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "Were I ___ the choice, I would decline.",
+    "options": [
+      "to have",
+      "having",
+      "have",
+      "had"
+    ],
+    "answer": "to have",
+    "explanation": "Inversion: Were I to have... (subjunctive)"
+  },
+  {
+    "id": "G-C1-02",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "What ___ me is the lack of accountability.",
+    "options": [
+      "concerns",
+      "concern",
+      "concerning",
+      "is concerned"
+    ],
+    "answer": "concerns",
+    "explanation": "Cleft: What concerns me is..."
+  },
+  {
+    "id": "V-C1-03",
+    "cefr": "C1",
+    "type": "vocab",
+    "question": "The proposal was ___ due to lack of funding.",
+    "options": [
+      "scrapped",
+      "scraped",
+      "scratched",
+      "scrolled"
+    ],
+    "answer": "scrapped",
+    "explanation": "Scrap = abandon"
+  },
+  {
+    "id": "G-C1-04",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "No sooner ___ arrived than it started raining.",
+    "options": [
+      "had we",
+      "we had",
+      "have we",
+      "we have"
+    ],
+    "answer": "had we",
+    "explanation": "Inversion: No sooner had we..."
+  },
+  {
+    "id": "V-C1-05",
+    "cefr": "C1",
+    "type": "vocab",
+    "question": "Her argument is ___ flawed; it ignores demographic data.",
+    "options": [
+      "fundamentally",
+      "fundamental",
+      "funds",
+      "found"
+    ],
+    "answer": "fundamentally",
+    "explanation": "Adverb + adjective"
+  },
+  {
+    "id": "G-C1-06",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "It is imperative that he ___ present.",
+    "options": [
+      "be",
+      "is",
+      "was",
+      "being"
+    ],
+    "answer": "be",
+    "explanation": "Subjunctive after imperative"
+  },
+  {
+    "id": "V-C1-07",
+    "cefr": "C1",
+    "type": "vocab",
+    "question": "The report ___ light on systemic failures.",
+    "options": [
+      "sheds",
+      "shades",
+      "shines",
+      "shows"
+    ],
+    "answer": "sheds",
+    "explanation": "Shed light on"
+  },
+  {
+    "id": "G-C1-08",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "___ as it may seem, the plan worked.",
+    "options": [
+      "Strange",
+      "Strangely",
+      "Stranger",
+      "As strange"
+    ],
+    "answer": "Strange",
+    "explanation": "Strange as it may seem (inversion)"
+  },
+  {
+    "id": "V-C1-09",
+    "cefr": "C1",
+    "type": "vocab",
+    "question": "They reached a ___ after lengthy negotiations.",
+    "options": [
+      "compromise",
+      "promise",
+      "premise",
+      "surmise"
+    ],
+    "answer": "compromise",
+    "explanation": "Reach a compromise"
+  },
+  {
+    "id": "G-C1-10",
+    "cefr": "C1",
+    "type": "grammar",
+    "question": "Had it not ___ for his intervention, we would have failed.",
+    "options": [
+      "been",
+      "being",
+      "be",
+      "is"
+    ],
+    "answer": "been",
+    "explanation": "Had it not been for... (inverted third conditional)"
+  },
+  {
+    "id": "G-C2-01",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "The essay's ___ is its conflation of correlation and causation.",
+    "options": [
+      "Achilles' heel",
+      "shoulder",
+      "knee",
+      "elbow"
+    ],
+    "answer": "Achilles' heel",
+    "explanation": "Idiom: Achilles' heel = fatal weakness"
+  },
+  {
+    "id": "G-C2-02",
+    "cefr": "C2",
+    "type": "grammar",
+    "question": "___ the evidence, the jury acquitted.",
+    "options": [
+      "Notwithstanding",
+      "Although",
+      "Despite of",
+      "Whereas"
+    ],
+    "answer": "Notwithstanding",
+    "explanation": "Notwithstanding + noun (formal)"
+  },
+  {
+    "id": "V-C2-03",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "His tone was ___ — polite but cutting.",
+    "options": [
+      "tortuous",
+      "torturous",
+      "trenchant",
+      "turgid"
+    ],
+    "answer": "trenchant",
+    "explanation": "Trenchant = sharp/incisive"
+  },
+  {
+    "id": "G-C2-04",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "The policy is ___ to failure given perverse incentives.",
+    "options": [
+      "predicated",
+      "tantamount",
+      "doomed",
+      "prone"
+    ],
+    "answer": "tantamount",
+    "explanation": "Tantamount to = equivalent to (formal)"
+  },
+  {
+    "id": "V-C2-05",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "She was ___ in her praise, bordering on sycophancy.",
+    "options": [
+      "effusive",
+      "effusion",
+      "efficiency",
+      "effusive"
+    ],
+    "answer": "effusive",
+    "explanation": "Effusive = excessive"
+  },
+  {
+    "id": "G-C2-06",
+    "cefr": "C2",
+    "type": "grammar",
+    "question": "Little ___ that his decision would trigger a crisis.",
+    "options": [
+      "did he know",
+      "he knew",
+      "he did know",
+      "knew he"
+    ],
+    "answer": "did he know",
+    "explanation": "Inversion: Little did he know"
+  },
+  {
+    "id": "V-C2-07",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "A ___ argument — superficially plausible but fallacious.",
+    "options": [
+      "specious",
+      "spacious",
+      "spontaneous",
+      "speculative"
+    ],
+    "answer": "specious",
+    "explanation": "Specious = falsely plausible"
+  },
+  {
+    "id": "G-C2-08",
+    "cefr": "C2",
+    "type": "grammar",
+    "question": "The data, ___ at first glance, reveals nuance upon scrutiny.",
+    "options": [
+      "compelling",
+      "compellingly",
+      "compelled",
+      "compel"
+    ],
+    "answer": "compelling",
+    "explanation": "Reduced clause"
+  },
+  {
+    "id": "V-C2-09",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "To ___ the issue would be to oversimplify.",
+    "options": [
+      "belabour",
+      "belittle",
+      "beguile",
+      "betoken"
+    ],
+    "answer": "belittle",
+    "explanation": "Belittle = minimise importance (collocation vary)"
+  },
+  {
+    "id": "G-C2-10",
+    "cefr": "C2",
+    "type": "vocab",
+    "question": "The findings ___ conventional wisdom on its head.",
+    "options": [
+      "turned",
+      "put",
+      "kept",
+      "brought"
+    ],
+    "answer": "turned",
+    "explanation": "Turn on its head = invert"
+  }
+]
