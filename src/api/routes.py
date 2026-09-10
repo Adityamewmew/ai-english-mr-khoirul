@@ -92,6 +92,76 @@ def reading_passages(cefr: str = None, n: int = 4):
     if cefr: data = [d for d in data if d["cefr"] == cefr.upper()]
     return data[:n]
 
+
+# ---- Learn: Curriculum & Tutor Chat ----
+from src.learn.curriculum import load_modules, load_lessons, modules_for_grade, module_by_id, lessons_for_module, lesson_by_id, system_prompt_for_lesson
+from src.models.llm_client import chat as llm_chat
+
+@app.get("/learn/modules")
+def learn_modules(grade: str = "B1"):
+    mods = modules_for_grade(grade)
+    return {"grade": grade.upper(), "count": len(mods), "modules": mods}
+
+@app.get("/learn/modules/all")
+def learn_modules_all():
+    mods = load_modules()
+    return {"count": len(mods), "modules": mods}
+
+@app.get("/learn/lessons")
+def learn_lessons(module_id: str = None):
+    if module_id:
+        return {"module_id": module_id, "lessons": lessons_for_module(module_id)}
+    return {"count": len(load_lessons()), "lessons": load_lessons()}
+
+@app.get("/learn/lesson/{lesson_id}")
+def learn_lesson(lesson_id: str, learner_cefr: str = "B1"):
+    lesson = lesson_by_id(lesson_id)
+    if not lesson:
+        raise HTTPException(404, f"Lesson {lesson_id} not found")
+    mod = module_by_id(lesson["module_id"])
+    return {"lesson": lesson, "module": mod, "system_prompt": system_prompt_for_lesson(lesson, learner_cefr)}
+
+class LessonChatRequest(BaseModel):
+    lesson_id: str
+    learner_cefr: str = "B1"
+    message: str
+    history: List[dict] = []  # [{role, content}]
+
+@app.post("/learn/lesson/chat")
+def learn_lesson_chat(req: LessonChatRequest):
+    lesson = lesson_by_id(req.lesson_id)
+    if not lesson:
+        raise HTTPException(404, f"Lesson {req.lesson_id} not found")
+    sys_prompt = system_prompt_for_lesson(lesson, req.learner_cefr)
+    msgs = [{"role":"system","content": sys_prompt}]
+    for h in (req.history or [])[-10:]:
+        if h.get("role") in ("user","assistant") and h.get("content"):
+            msgs.append({"role": h["role"], "content": h["content"][:1200]})
+    msgs.append({"role":"user","content": req.message[:1500]})
+    try:
+        reply = llm_chat(msgs, temperature=0.7, max_tokens=500)
+    except Exception as e:
+        reply = f"[stub tutor] ({lesson['title']}) — LLM offline: {e}. Contoh: '{lesson['exercise']}' — coba jawab, lalu aku koreksi."
+    return {"lesson_id": req.lesson_id, "reply": reply, "lesson": lesson}
+
+@app.get("/learn/lesson/{lesson_id}/quiz")
+def learn_lesson_quiz(lesson_id: str, n: int = 3):
+    lesson = lesson_by_id(lesson_id)
+    if not lesson:
+        raise HTTPException(404, f"Lesson {lesson_id} not found")
+    # quiz from grammar_vocab_bank filtered by lesson points
+    import json as _js
+    bank_path = _pl.Path(__file__).resolve().parent.parent.parent / "data" / "grammar_vocab_bank.json"
+    bank = _js.loads(bank_path.read_text()) if bank_path.exists() else []
+    # filter by cefr
+    cand = [q for q in bank if q["cefr"]==lesson["cefr"]]
+    if len(cand) < n: cand = bank
+    import random as _rnd
+    _rnd.seed(hash(lesson_id) % 997)
+    quiz = _rnd.sample(cand, min(n, len(cand)))
+    return {"lesson_id": lesson_id, "quiz": [{"id":q["id"],"question":q["question"],"options":q["options"],"answer":q["answer"]} for q in quiz]}
+
+
 # ---- CEFR Grading ----
 @app.post("/grade", response_model=GradeResponse)
 def grade(req: GradeRequest):

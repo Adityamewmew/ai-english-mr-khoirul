@@ -1,0 +1,718 @@
+[
+  {
+    "id": "M01",
+    "title": "Be, Pronouns & Articles",
+    "cefr": "A1",
+    "group": "A - Basic",
+    "objective": "Perkenalan diri, identitas, a/an/the",
+    "points": [
+      "be (am/is/are)",
+      "pronouns I/you/he",
+      "a/an/the",
+      "this/that"
+    ],
+    "vocab": [
+      "greetings",
+      "family",
+      "numbers"
+    ],
+    "tests": [
+      "TOEIC Part1",
+      "IELTS S1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M02",
+    "title": "Present Simple & Frequency",
+    "cefr": "A1",
+    "group": "A - Basic",
+    "objective": "Rutinitas harian",
+    "points": [
+      "present simple",
+      "adverbs always/usually",
+      "do/does questions"
+    ],
+    "vocab": [
+      "daily routine",
+      "hobbies"
+    ],
+    "tests": [
+      "TOEIC P5",
+      "TOEFL Reading"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M03",
+    "title": "Past Simple & Time Past",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Cerita masa lalu",
+    "points": [
+      "past simple regular/irregular",
+      "time markers yesterday/ago",
+      "there is/are past"
+    ],
+    "vocab": [
+      "holidays",
+      "events"
+    ],
+    "tests": [
+      "IELTS W1",
+      "TOEIC P5"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M04",
+    "title": "Present Continuous & Going To",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Rencana & sedang berlangsung",
+    "points": [
+      "present continuous",
+      "going to future",
+      "can/can't ability"
+    ],
+    "vocab": [
+      "plans",
+      "weather",
+      "clothes"
+    ],
+    "tests": [
+      "TOEIC P2",
+      "IELTS S1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M05",
+    "title": "Countable/Uncountable & Quantifiers",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Belanja & jumlah",
+    "points": [
+      "some/any",
+      "much/many/lot",
+      "how much/many"
+    ],
+    "vocab": [
+      "food",
+      "shopping",
+      "prices"
+    ],
+    "tests": [
+      "TOEIC P5",
+      "IELTS L1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M06",
+    "title": "Comparatives & Superlatives",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Membandingkan",
+    "points": [
+      "comparative -er/more",
+      "superlative -est/most",
+      "as...as"
+    ],
+    "vocab": [
+      "describing people/places"
+    ],
+    "tests": [
+      "TOEIC P5",
+      "TOEFL Grammar"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M07",
+    "title": "Past Continuous & Used To",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Latar cerita",
+    "points": [
+      "was/were + -ing",
+      "when/while",
+      "used to"
+    ],
+    "vocab": [
+      "childhood",
+      "habits"
+    ],
+    "tests": [
+      "IELTS S2"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M08",
+    "title": "Future: Will, Going To, Present Continuous",
+    "cefr": "A2",
+    "group": "A - Basic",
+    "objective": "Prediksi & janji",
+    "points": [
+      "will/won't",
+      "going to vs will",
+      "present continuous for future"
+    ],
+    "vocab": [
+      "travel plans"
+    ],
+    "tests": [
+      "TOEIC P6"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M09",
+    "title": "Present Perfect (since/for, ever/never)",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Pengalaman sampai sekarang",
+    "points": [
+      "have/has + past participle",
+      "since/for",
+      "already/yet/just"
+    ],
+    "vocab": [
+      "experiences",
+      "achievements"
+    ],
+    "tests": [
+      "IELTS W2",
+      "TOEIC P5"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M10",
+    "title": "Past Perfect & Narrative Tenses",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Urutan masa lalu",
+    "points": [
+      "past perfect",
+      "past simple vs continuous vs perfect"
+    ],
+    "vocab": [
+      "storytelling"
+    ],
+    "tests": [
+      "TOEFL Reading",
+      "IELTS R"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M11",
+    "title": "Conditionals 0 & 1 + Time Clauses",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Sebab-akibat & kondisi",
+    "points": [
+      "if/when present + will",
+      "unless, as soon as"
+    ],
+    "vocab": [
+      "rules",
+      "plans"
+    ],
+    "tests": [
+      "TOEIC P5",
+      "TOEFL W"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M12",
+    "title": "Modals: Ability, Permission, Advice",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Modal dasar",
+    "points": [
+      "can/could/may/might",
+      "must/mustn't/have to",
+      "should/ought to"
+    ],
+    "vocab": [
+      "rules",
+      "advice"
+    ],
+    "tests": [
+      "TOEIC P5",
+      "IELTS S3"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M13",
+    "title": "Passive: Present & Past",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Fokus objek",
+    "points": [
+      "is/are/was/were + past participle",
+      "by agent"
+    ],
+    "vocab": [
+      "processes",
+      "news"
+    ],
+    "tests": [
+      "TOEFL Reading",
+      "IELTS W1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M14",
+    "title": "Gerund vs Infinitive",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Pola kata kerja",
+    "points": [
+      "enjoy + -ing",
+      "want/plan + to",
+      "stop/remember + both meanings"
+    ],
+    "vocab": [
+      "hobbies",
+      "goals"
+    ],
+    "tests": [
+      "TOEIC P5/6"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M15",
+    "title": "Linkers: Although, Because, So, However",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Menghubungkan ide",
+    "points": [
+      "because/so",
+      "although/however",
+      "therefore/moreover"
+    ],
+    "vocab": [
+      "opinion paragraphs"
+    ],
+    "tests": [
+      "IELTS W2",
+      "TOEFL W"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M16",
+    "title": "Reported Speech & Questions",
+    "cefr": "B1",
+    "group": "B - Independent",
+    "objective": "Melaporkan perkataan",
+    "points": [
+      "said/told that",
+      "indirect questions"
+    ],
+    "vocab": [
+      "interviews"
+    ],
+    "tests": [
+      "IELTS L3"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M17",
+    "title": "Conditionals 2, 3 & Mixed + Wishes",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Hipotesis & penyesalan",
+    "points": [
+      "if + past, would",
+      "if + past perfect, would have",
+      "mixed, wish/if only"
+    ],
+    "vocab": [
+      "hypothetical",
+      "regrets"
+    ],
+    "tests": [
+      "TOEFL Structure",
+      "IELTS S3"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M18",
+    "title": "Passive All Forms + Reporting Passive",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Formal & akademik",
+    "points": [
+      "It is said that",
+      "has been done",
+      "by 2025 will have been"
+    ],
+    "vocab": [
+      "academic reports"
+    ],
+    "tests": [
+      "TOEFL Reading",
+      "IELTS W1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M19",
+    "title": "Relative Clauses & Clefts",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Detail kompleks",
+    "points": [
+      "who/whose/which/where",
+      "defining/non-defining",
+      "What I need is..."
+    ],
+    "vocab": [
+      "descriptions"
+    ],
+    "tests": [
+      "TOEIC P6",
+      "IELTS W2"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M20",
+    "title": "Perfect Modals & Hedging",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Spekulasi & nuansa",
+    "points": [
+      "must have done",
+      "can't have, might have",
+      "seem, tend to, likely"
+    ],
+    "vocab": [
+      "speculation"
+    ],
+    "tests": [
+      "TOEFL Listening",
+      "IELTS S3"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M21",
+    "title": "Cohesion: Despite, Whereas, Having + Participle",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Essay kohesif",
+    "points": [
+      "Despite/In spite of",
+      "Whereas",
+      "Having finished, ..."
+    ],
+    "vocab": [
+      "essay linking"
+    ],
+    "tests": [
+      "IELTS W2 7+",
+      "TOEFL W integrated"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M22",
+    "title": "Business English: Emails & Meetings (TOEIC)",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Workplace",
+    "points": [
+      "formal email structure",
+      "meeting phrases",
+      "telephone"
+    ],
+    "vocab": [
+      "business correspondence",
+      "office"
+    ],
+    "tests": [
+      "TOEIC P6/P7",
+      "TOEIC Speaking"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M23",
+    "title": "TOEIC Talks & Conversations Strategy",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "TOEIC L3-L4",
+    "points": [
+      "predict question types",
+      "note-taking talks"
+    ],
+    "vocab": [
+      "announcements",
+      "workplace talks"
+    ],
+    "tests": [
+      "TOEIC L 3-4"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M24",
+    "title": "IELTS Task 1: Graphs & Processes",
+    "cefr": "B2",
+    "group": "B - Independent",
+    "objective": "Deskripsi visual",
+    "points": [
+      "trend language up/down",
+      "comparing data",
+      "process passive"
+    ],
+    "vocab": [
+      "charts",
+      "processes"
+    ],
+    "tests": [
+      "IELTS W Task1"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M25",
+    "title": "Inversion & Emphasis",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Gaya formal",
+    "points": [
+      "Not only did...",
+      "Never have I...",
+      "Were I to..."
+    ],
+    "vocab": [
+      "formal writing"
+    ],
+    "tests": [
+      "TOEFL Structure",
+      "IELTS W 8+"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M26",
+    "title": "Subjunctive & Nominalisation",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Akademik tinggi",
+    "points": [
+      "It is imperative that he be",
+      "The failure to...",
+      "nominalisation"
+    ],
+    "vocab": [
+      "academic"
+    ],
+    "tests": [
+      "TOEFL W",
+      "IELTS W 8+"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M27",
+    "title": "Advanced Hedging & Stance",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Nuansa C1",
+    "points": [
+      "arguably, presumably",
+      "It could be argued that"
+    ],
+    "vocab": [
+      "stance markers"
+    ],
+    "tests": [
+      "TOEFL Speaking",
+      "IELTS S3"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M28",
+    "title": "Idioms, Collocations & Phrasal Verbs",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Native-like",
+    "points": [
+      "take advantage of",
+      "Achilles' heel",
+      "turn on its head"
+    ],
+    "vocab": [
+      "idiomatic"
+    ],
+    "tests": [
+      "TOEIC 900+",
+      "IELTS 8"
+    ],
+    "lessons": 2
+  },
+  {
+    "id": "M29",
+    "title": "TOEFL Integrated: Reading+Listening+Writing",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "TOEFL iBT W integrated",
+    "points": [
+      "synthesize sources",
+      "paraphrase"
+    ],
+    "vocab": [
+      "academic discussion"
+    ],
+    "tests": [
+      "TOEFL W integrated"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M30",
+    "title": "TOEFL Speaking: Interview & Academic",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Fluency & coherence",
+    "points": [
+      "spontaneous response",
+      "discourse markers"
+    ],
+    "vocab": [
+      "campus talk"
+    ],
+    "tests": [
+      "TOEFL Speaking"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M31",
+    "title": "IELTS Speaking 3-Part Deep Dive",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "Band 7-9",
+    "points": [
+      "Part 1 fluency",
+      "Part 2 long turn 2min",
+      "Part 3 abstract discussion"
+    ],
+    "vocab": [
+      "abstract topics"
+    ],
+    "tests": [
+      "IELTS Speaking"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M32",
+    "title": "TOEIC High Score: Incomplete Sentences Tactics",
+    "cefr": "C1",
+    "group": "C - Proficient",
+    "objective": "860+ strategy",
+    "points": [
+      "speed 0.5min/Q",
+      "elimination"
+    ],
+    "vocab": [
+      "business vocab 600"
+    ],
+    "tests": [
+      "TOEIC 860+"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M33",
+    "title": "Academic Reading: Inference & Paraphrase",
+    "cefr": "C2",
+    "group": "C - Proficient",
+    "objective": "C2 reading",
+    "points": [
+      "implicit meaning",
+      "paraphrase detection"
+    ],
+    "vocab": [
+      "abstract 700w"
+    ],
+    "tests": [
+      "IELTS R 8.5",
+      "TOEFL R"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M34",
+    "title": "Listening: Unstructured & Fast Native",
+    "cefr": "C2",
+    "group": "C - Proficient",
+    "objective": "C2 listening",
+    "points": [
+      "idiomatic fast",
+      "implied relationships"
+    ],
+    "vocab": [
+      "panel, debate"
+    ],
+    "tests": [
+      "TOEFL L",
+      "IELTS L"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M35",
+    "title": "Mastery Writing: Argument & Synthesis",
+    "cefr": "C2",
+    "group": "C - Proficient",
+    "objective": "Mastery",
+    "points": [
+      "That-clause fronted",
+      "Little did..."
+    ],
+    "vocab": [
+      "wabi-sabi, synthesis"
+    ],
+    "tests": [
+      "IELTS 9",
+      "TOEFL 6"
+    ],
+    "lessons": 1
+  },
+  {
+    "id": "M36",
+    "title": "Pronunciation & Intonation Lab",
+    "cefr": "A1-C2",
+    "group": "All",
+    "objective": "Bunyi & intonasi",
+    "points": [
+      "phonemes",
+      "word/sentence stress",
+      "intonation"
+    ],
+    "vocab": [
+      "minimal pairs"
+    ],
+    "tests": [
+      "All Speaking"
+    ],
+    "lessons": 1
+  }
+]

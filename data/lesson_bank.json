@@ -1,0 +1,883 @@
+[
+  {
+    "id": "M01-L1",
+    "module_id": "M01",
+    "title": "Be, Pronouns & Articles - Lesson 1",
+    "cefr": "A1",
+    "objective": "Perkenalan diri, identitas, a/an/the",
+    "points": [
+      "be (am/is/are)",
+      "pronouns I/you/he",
+      "a/an/the",
+      "this/that"
+    ],
+    "vocab": [
+      "greetings",
+      "family",
+      "numbers"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Be, Pronouns & Articles. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: be (am/is/are), pronouns I/you/he.",
+    "exercise": "Mini exercise for Be, Pronouns & Articles: use be (am/is/are) in a sentence about greetings.",
+    "tests": [
+      "TOEIC Part1",
+      "IELTS S1"
+    ]
+  },
+  {
+    "id": "M02-L1",
+    "module_id": "M02",
+    "title": "Present Simple & Frequency - Lesson 1",
+    "cefr": "A1",
+    "objective": "Rutinitas harian",
+    "points": [
+      "present simple",
+      "adverbs always/usually",
+      "do/does questions"
+    ],
+    "vocab": [
+      "daily routine",
+      "hobbies"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Present Simple & Frequency. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: present simple, adverbs always/usually.",
+    "exercise": "Mini exercise for Present Simple & Frequency: use present simple in a sentence about daily routine.",
+    "tests": [
+      "TOEIC P5",
+      "TOEFL Reading"
+    ]
+  },
+  {
+    "id": "M03-L1",
+    "module_id": "M03",
+    "title": "Past Simple & Time Past - Lesson 1",
+    "cefr": "A2",
+    "objective": "Cerita masa lalu",
+    "points": [
+      "past simple regular/irregular",
+      "time markers yesterday/ago",
+      "there is/are past"
+    ],
+    "vocab": [
+      "holidays",
+      "events"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Past Simple & Time Past. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: past simple regular/irregular, time markers yesterday/ago.",
+    "exercise": "Mini exercise for Past Simple & Time Past: use past simple regular/irregular in a sentence about holidays.",
+    "tests": [
+      "IELTS W1",
+      "TOEIC P5"
+    ]
+  },
+  {
+    "id": "M04-L1",
+    "module_id": "M04",
+    "title": "Present Continuous & Going To - Lesson 1",
+    "cefr": "A2",
+    "objective": "Rencana & sedang berlangsung",
+    "points": [
+      "present continuous",
+      "going to future",
+      "can/can't ability"
+    ],
+    "vocab": [
+      "plans",
+      "weather",
+      "clothes"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Present Continuous & Going To. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: present continuous, going to future.",
+    "exercise": "Mini exercise for Present Continuous & Going To: use present continuous in a sentence about plans.",
+    "tests": [
+      "TOEIC P2",
+      "IELTS S1"
+    ]
+  },
+  {
+    "id": "M05-L1",
+    "module_id": "M05",
+    "title": "Countable/Uncountable & Quantifiers - Lesson 1",
+    "cefr": "A2",
+    "objective": "Belanja & jumlah",
+    "points": [
+      "some/any",
+      "much/many/lot",
+      "how much/many"
+    ],
+    "vocab": [
+      "food",
+      "shopping",
+      "prices"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Countable/Uncountable & Quantifiers. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: some/any, much/many/lot.",
+    "exercise": "Mini exercise for Countable/Uncountable & Quantifiers: use some/any in a sentence about food.",
+    "tests": [
+      "TOEIC P5",
+      "IELTS L1"
+    ]
+  },
+  {
+    "id": "M06-L1",
+    "module_id": "M06",
+    "title": "Comparatives & Superlatives - Lesson 1",
+    "cefr": "A2",
+    "objective": "Membandingkan",
+    "points": [
+      "comparative -er/more",
+      "superlative -est/most",
+      "as...as"
+    ],
+    "vocab": [
+      "describing people/places"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Comparatives & Superlatives. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: comparative -er/more, superlative -est/most.",
+    "exercise": "Mini exercise for Comparatives & Superlatives: use comparative -er/more in a sentence about describing people/places.",
+    "tests": [
+      "TOEIC P5",
+      "TOEFL Grammar"
+    ]
+  },
+  {
+    "id": "M07-L1",
+    "module_id": "M07",
+    "title": "Past Continuous & Used To - Lesson 1",
+    "cefr": "A2",
+    "objective": "Latar cerita",
+    "points": [
+      "was/were + -ing",
+      "when/while",
+      "used to"
+    ],
+    "vocab": [
+      "childhood",
+      "habits"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Past Continuous & Used To. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: was/were + -ing, when/while.",
+    "exercise": "Mini exercise for Past Continuous & Used To: use was/were + -ing in a sentence about childhood.",
+    "tests": [
+      "IELTS S2"
+    ]
+  },
+  {
+    "id": "M08-L1",
+    "module_id": "M08",
+    "title": "Future: Will, Going To, Present Continuous - Lesson 1",
+    "cefr": "A2",
+    "objective": "Prediksi & janji",
+    "points": [
+      "will/won't",
+      "going to vs will",
+      "present continuous for future"
+    ],
+    "vocab": [
+      "travel plans"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Future: Will, Going To, Present Continuous. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: will/won't, going to vs will.",
+    "exercise": "Mini exercise for Future: Will, Going To, Present Continuous: use will/won't in a sentence about travel plans.",
+    "tests": [
+      "TOEIC P6"
+    ]
+  },
+  {
+    "id": "M09-L1",
+    "module_id": "M09",
+    "title": "Present Perfect (since/for, ever/never) - Lesson 1",
+    "cefr": "B1",
+    "objective": "Pengalaman sampai sekarang",
+    "points": [
+      "have/has + past participle",
+      "since/for",
+      "already/yet/just"
+    ],
+    "vocab": [
+      "experiences",
+      "achievements"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Present Perfect (since/for, ever/never). Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: have/has + past participle, since/for.",
+    "exercise": "Mini exercise for Present Perfect (since/for, ever/never): use have/has + past participle in a sentence about experiences.",
+    "tests": [
+      "IELTS W2",
+      "TOEIC P5"
+    ]
+  },
+  {
+    "id": "M09-L2",
+    "module_id": "M09",
+    "title": "Present Perfect (since/for, ever/never) - Lesson 2",
+    "cefr": "B1",
+    "objective": "Pengalaman sampai sekarang",
+    "points": [
+      "have/has + past participle",
+      "since/for",
+      "already/yet/just"
+    ],
+    "vocab": [
+      "experiences",
+      "achievements"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Present Perfect (since/for, ever/never). Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: have/has + past participle, since/for.",
+    "exercise": "Mini exercise for Present Perfect (since/for, ever/never): use have/has + past participle in a sentence about experiences.",
+    "tests": [
+      "IELTS W2",
+      "TOEIC P5"
+    ]
+  },
+  {
+    "id": "M10-L1",
+    "module_id": "M10",
+    "title": "Past Perfect & Narrative Tenses - Lesson 1",
+    "cefr": "B1",
+    "objective": "Urutan masa lalu",
+    "points": [
+      "past perfect",
+      "past simple vs continuous vs perfect"
+    ],
+    "vocab": [
+      "storytelling"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Past Perfect & Narrative Tenses. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: past perfect, past simple vs continuous vs perfect.",
+    "exercise": "Mini exercise for Past Perfect & Narrative Tenses: use past perfect in a sentence about storytelling.",
+    "tests": [
+      "TOEFL Reading",
+      "IELTS R"
+    ]
+  },
+  {
+    "id": "M11-L1",
+    "module_id": "M11",
+    "title": "Conditionals 0 & 1 + Time Clauses - Lesson 1",
+    "cefr": "B1",
+    "objective": "Sebab-akibat & kondisi",
+    "points": [
+      "if/when present + will",
+      "unless, as soon as"
+    ],
+    "vocab": [
+      "rules",
+      "plans"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Conditionals 0 & 1 + Time Clauses. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: if/when present + will, unless, as soon as.",
+    "exercise": "Mini exercise for Conditionals 0 & 1 + Time Clauses: use if/when present + will in a sentence about rules.",
+    "tests": [
+      "TOEIC P5",
+      "TOEFL W"
+    ]
+  },
+  {
+    "id": "M12-L1",
+    "module_id": "M12",
+    "title": "Modals: Ability, Permission, Advice - Lesson 1",
+    "cefr": "B1",
+    "objective": "Modal dasar",
+    "points": [
+      "can/could/may/might",
+      "must/mustn't/have to",
+      "should/ought to"
+    ],
+    "vocab": [
+      "rules",
+      "advice"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Modals: Ability, Permission, Advice. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: can/could/may/might, must/mustn't/have to.",
+    "exercise": "Mini exercise for Modals: Ability, Permission, Advice: use can/could/may/might in a sentence about rules.",
+    "tests": [
+      "TOEIC P5",
+      "IELTS S3"
+    ]
+  },
+  {
+    "id": "M13-L1",
+    "module_id": "M13",
+    "title": "Passive: Present & Past - Lesson 1",
+    "cefr": "B1",
+    "objective": "Fokus objek",
+    "points": [
+      "is/are/was/were + past participle",
+      "by agent"
+    ],
+    "vocab": [
+      "processes",
+      "news"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Passive: Present & Past. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: is/are/was/were + past participle, by agent.",
+    "exercise": "Mini exercise for Passive: Present & Past: use is/are/was/were + past participle in a sentence about processes.",
+    "tests": [
+      "TOEFL Reading",
+      "IELTS W1"
+    ]
+  },
+  {
+    "id": "M14-L1",
+    "module_id": "M14",
+    "title": "Gerund vs Infinitive - Lesson 1",
+    "cefr": "B1",
+    "objective": "Pola kata kerja",
+    "points": [
+      "enjoy + -ing",
+      "want/plan + to",
+      "stop/remember + both meanings"
+    ],
+    "vocab": [
+      "hobbies",
+      "goals"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Gerund vs Infinitive. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: enjoy + -ing, want/plan + to.",
+    "exercise": "Mini exercise for Gerund vs Infinitive: use enjoy + -ing in a sentence about hobbies.",
+    "tests": [
+      "TOEIC P5/6"
+    ]
+  },
+  {
+    "id": "M15-L1",
+    "module_id": "M15",
+    "title": "Linkers: Although, Because, So, However - Lesson 1",
+    "cefr": "B1",
+    "objective": "Menghubungkan ide",
+    "points": [
+      "because/so",
+      "although/however",
+      "therefore/moreover"
+    ],
+    "vocab": [
+      "opinion paragraphs"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Linkers: Although, Because, So, However. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: because/so, although/however.",
+    "exercise": "Mini exercise for Linkers: Although, Because, So, However: use because/so in a sentence about opinion paragraphs.",
+    "tests": [
+      "IELTS W2",
+      "TOEFL W"
+    ]
+  },
+  {
+    "id": "M15-L2",
+    "module_id": "M15",
+    "title": "Linkers: Although, Because, So, However - Lesson 2",
+    "cefr": "B1",
+    "objective": "Menghubungkan ide",
+    "points": [
+      "because/so",
+      "although/however",
+      "therefore/moreover"
+    ],
+    "vocab": [
+      "opinion paragraphs"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Linkers: Although, Because, So, However. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: because/so, although/however.",
+    "exercise": "Mini exercise for Linkers: Although, Because, So, However: use because/so in a sentence about opinion paragraphs.",
+    "tests": [
+      "IELTS W2",
+      "TOEFL W"
+    ]
+  },
+  {
+    "id": "M16-L1",
+    "module_id": "M16",
+    "title": "Reported Speech & Questions - Lesson 1",
+    "cefr": "B1",
+    "objective": "Melaporkan perkataan",
+    "points": [
+      "said/told that",
+      "indirect questions"
+    ],
+    "vocab": [
+      "interviews"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Reported Speech & Questions. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: said/told that, indirect questions.",
+    "exercise": "Mini exercise for Reported Speech & Questions: use said/told that in a sentence about interviews.",
+    "tests": [
+      "IELTS L3"
+    ]
+  },
+  {
+    "id": "M17-L1",
+    "module_id": "M17",
+    "title": "Conditionals 2, 3 & Mixed + Wishes - Lesson 1",
+    "cefr": "B2",
+    "objective": "Hipotesis & penyesalan",
+    "points": [
+      "if + past, would",
+      "if + past perfect, would have",
+      "mixed, wish/if only"
+    ],
+    "vocab": [
+      "hypothetical",
+      "regrets"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Conditionals 2, 3 & Mixed + Wishes. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: if + past, would, if + past perfect, would have.",
+    "exercise": "Mini exercise for Conditionals 2, 3 & Mixed + Wishes: use if + past, would in a sentence about hypothetical.",
+    "tests": [
+      "TOEFL Structure",
+      "IELTS S3"
+    ]
+  },
+  {
+    "id": "M17-L2",
+    "module_id": "M17",
+    "title": "Conditionals 2, 3 & Mixed + Wishes - Lesson 2",
+    "cefr": "B2",
+    "objective": "Hipotesis & penyesalan",
+    "points": [
+      "if + past, would",
+      "if + past perfect, would have",
+      "mixed, wish/if only"
+    ],
+    "vocab": [
+      "hypothetical",
+      "regrets"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Conditionals 2, 3 & Mixed + Wishes. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: if + past, would, if + past perfect, would have.",
+    "exercise": "Mini exercise for Conditionals 2, 3 & Mixed + Wishes: use if + past, would in a sentence about hypothetical.",
+    "tests": [
+      "TOEFL Structure",
+      "IELTS S3"
+    ]
+  },
+  {
+    "id": "M18-L1",
+    "module_id": "M18",
+    "title": "Passive All Forms + Reporting Passive - Lesson 1",
+    "cefr": "B2",
+    "objective": "Formal & akademik",
+    "points": [
+      "It is said that",
+      "has been done",
+      "by 2025 will have been"
+    ],
+    "vocab": [
+      "academic reports"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Passive All Forms + Reporting Passive. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: It is said that, has been done.",
+    "exercise": "Mini exercise for Passive All Forms + Reporting Passive: use It is said that in a sentence about academic reports.",
+    "tests": [
+      "TOEFL Reading",
+      "IELTS W1"
+    ]
+  },
+  {
+    "id": "M19-L1",
+    "module_id": "M19",
+    "title": "Relative Clauses & Clefts - Lesson 1",
+    "cefr": "B2",
+    "objective": "Detail kompleks",
+    "points": [
+      "who/whose/which/where",
+      "defining/non-defining",
+      "What I need is..."
+    ],
+    "vocab": [
+      "descriptions"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Relative Clauses & Clefts. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: who/whose/which/where, defining/non-defining.",
+    "exercise": "Mini exercise for Relative Clauses & Clefts: use who/whose/which/where in a sentence about descriptions.",
+    "tests": [
+      "TOEIC P6",
+      "IELTS W2"
+    ]
+  },
+  {
+    "id": "M20-L1",
+    "module_id": "M20",
+    "title": "Perfect Modals & Hedging - Lesson 1",
+    "cefr": "B2",
+    "objective": "Spekulasi & nuansa",
+    "points": [
+      "must have done",
+      "can't have, might have",
+      "seem, tend to, likely"
+    ],
+    "vocab": [
+      "speculation"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Perfect Modals & Hedging. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: must have done, can't have, might have.",
+    "exercise": "Mini exercise for Perfect Modals & Hedging: use must have done in a sentence about speculation.",
+    "tests": [
+      "TOEFL Listening",
+      "IELTS S3"
+    ]
+  },
+  {
+    "id": "M21-L1",
+    "module_id": "M21",
+    "title": "Cohesion: Despite, Whereas, Having + Participle - Lesson 1",
+    "cefr": "B2",
+    "objective": "Essay kohesif",
+    "points": [
+      "Despite/In spite of",
+      "Whereas",
+      "Having finished, ..."
+    ],
+    "vocab": [
+      "essay linking"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Cohesion: Despite, Whereas, Having + Participle. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: Despite/In spite of, Whereas.",
+    "exercise": "Mini exercise for Cohesion: Despite, Whereas, Having + Participle: use Despite/In spite of in a sentence about essay linking.",
+    "tests": [
+      "IELTS W2 7+",
+      "TOEFL W integrated"
+    ]
+  },
+  {
+    "id": "M21-L2",
+    "module_id": "M21",
+    "title": "Cohesion: Despite, Whereas, Having + Participle - Lesson 2",
+    "cefr": "B2",
+    "objective": "Essay kohesif",
+    "points": [
+      "Despite/In spite of",
+      "Whereas",
+      "Having finished, ..."
+    ],
+    "vocab": [
+      "essay linking"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Cohesion: Despite, Whereas, Having + Participle. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: Despite/In spite of, Whereas.",
+    "exercise": "Mini exercise for Cohesion: Despite, Whereas, Having + Participle: use Despite/In spite of in a sentence about essay linking.",
+    "tests": [
+      "IELTS W2 7+",
+      "TOEFL W integrated"
+    ]
+  },
+  {
+    "id": "M22-L1",
+    "module_id": "M22",
+    "title": "Business English: Emails & Meetings (TOEIC) - Lesson 1",
+    "cefr": "B2",
+    "objective": "Workplace",
+    "points": [
+      "formal email structure",
+      "meeting phrases",
+      "telephone"
+    ],
+    "vocab": [
+      "business correspondence",
+      "office"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Business English: Emails & Meetings (TOEIC). Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: formal email structure, meeting phrases.",
+    "exercise": "Mini exercise for Business English: Emails & Meetings (TOEIC): use formal email structure in a sentence about business correspondence.",
+    "tests": [
+      "TOEIC P6/P7",
+      "TOEIC Speaking"
+    ]
+  },
+  {
+    "id": "M22-L2",
+    "module_id": "M22",
+    "title": "Business English: Emails & Meetings (TOEIC) - Lesson 2",
+    "cefr": "B2",
+    "objective": "Workplace",
+    "points": [
+      "formal email structure",
+      "meeting phrases",
+      "telephone"
+    ],
+    "vocab": [
+      "business correspondence",
+      "office"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Business English: Emails & Meetings (TOEIC). Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: formal email structure, meeting phrases.",
+    "exercise": "Mini exercise for Business English: Emails & Meetings (TOEIC): use formal email structure in a sentence about business correspondence.",
+    "tests": [
+      "TOEIC P6/P7",
+      "TOEIC Speaking"
+    ]
+  },
+  {
+    "id": "M23-L1",
+    "module_id": "M23",
+    "title": "TOEIC Talks & Conversations Strategy - Lesson 1",
+    "cefr": "B2",
+    "objective": "TOEIC L3-L4",
+    "points": [
+      "predict question types",
+      "note-taking talks"
+    ],
+    "vocab": [
+      "announcements",
+      "workplace talks"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module TOEIC Talks & Conversations Strategy. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: predict question types, note-taking talks.",
+    "exercise": "Mini exercise for TOEIC Talks & Conversations Strategy: use predict question types in a sentence about announcements.",
+    "tests": [
+      "TOEIC L 3-4"
+    ]
+  },
+  {
+    "id": "M24-L1",
+    "module_id": "M24",
+    "title": "IELTS Task 1: Graphs & Processes - Lesson 1",
+    "cefr": "B2",
+    "objective": "Deskripsi visual",
+    "points": [
+      "trend language up/down",
+      "comparing data",
+      "process passive"
+    ],
+    "vocab": [
+      "charts",
+      "processes"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module IELTS Task 1: Graphs & Processes. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: trend language up/down, comparing data.",
+    "exercise": "Mini exercise for IELTS Task 1: Graphs & Processes: use trend language up/down in a sentence about charts.",
+    "tests": [
+      "IELTS W Task1"
+    ]
+  },
+  {
+    "id": "M25-L1",
+    "module_id": "M25",
+    "title": "Inversion & Emphasis - Lesson 1",
+    "cefr": "C1",
+    "objective": "Gaya formal",
+    "points": [
+      "Not only did...",
+      "Never have I...",
+      "Were I to..."
+    ],
+    "vocab": [
+      "formal writing"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Inversion & Emphasis. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: Not only did..., Never have I....",
+    "exercise": "Mini exercise for Inversion & Emphasis: use Not only did... in a sentence about formal writing.",
+    "tests": [
+      "TOEFL Structure",
+      "IELTS W 8+"
+    ]
+  },
+  {
+    "id": "M26-L1",
+    "module_id": "M26",
+    "title": "Subjunctive & Nominalisation - Lesson 1",
+    "cefr": "C1",
+    "objective": "Akademik tinggi",
+    "points": [
+      "It is imperative that he be",
+      "The failure to...",
+      "nominalisation"
+    ],
+    "vocab": [
+      "academic"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Subjunctive & Nominalisation. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: It is imperative that he be, The failure to....",
+    "exercise": "Mini exercise for Subjunctive & Nominalisation: use It is imperative that he be in a sentence about academic.",
+    "tests": [
+      "TOEFL W",
+      "IELTS W 8+"
+    ]
+  },
+  {
+    "id": "M27-L1",
+    "module_id": "M27",
+    "title": "Advanced Hedging & Stance - Lesson 1",
+    "cefr": "C1",
+    "objective": "Nuansa C1",
+    "points": [
+      "arguably, presumably",
+      "It could be argued that"
+    ],
+    "vocab": [
+      "stance markers"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Advanced Hedging & Stance. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: arguably, presumably, It could be argued that.",
+    "exercise": "Mini exercise for Advanced Hedging & Stance: use arguably, presumably in a sentence about stance markers.",
+    "tests": [
+      "TOEFL Speaking",
+      "IELTS S3"
+    ]
+  },
+  {
+    "id": "M28-L1",
+    "module_id": "M28",
+    "title": "Idioms, Collocations & Phrasal Verbs - Lesson 1",
+    "cefr": "C1",
+    "objective": "Native-like",
+    "points": [
+      "take advantage of",
+      "Achilles' heel",
+      "turn on its head"
+    ],
+    "vocab": [
+      "idiomatic"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Idioms, Collocations & Phrasal Verbs. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: take advantage of, Achilles' heel.",
+    "exercise": "Mini exercise for Idioms, Collocations & Phrasal Verbs: use take advantage of in a sentence about idiomatic.",
+    "tests": [
+      "TOEIC 900+",
+      "IELTS 8"
+    ]
+  },
+  {
+    "id": "M28-L2",
+    "module_id": "M28",
+    "title": "Idioms, Collocations & Phrasal Verbs - Lesson 2",
+    "cefr": "C1",
+    "objective": "Native-like",
+    "points": [
+      "take advantage of",
+      "Achilles' heel",
+      "turn on its head"
+    ],
+    "vocab": [
+      "idiomatic"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Idioms, Collocations & Phrasal Verbs. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: take advantage of, Achilles' heel.",
+    "exercise": "Mini exercise for Idioms, Collocations & Phrasal Verbs: use take advantage of in a sentence about idiomatic.",
+    "tests": [
+      "TOEIC 900+",
+      "IELTS 8"
+    ]
+  },
+  {
+    "id": "M29-L1",
+    "module_id": "M29",
+    "title": "TOEFL Integrated: Reading+Listening+Writing - Lesson 1",
+    "cefr": "C1",
+    "objective": "TOEFL iBT W integrated",
+    "points": [
+      "synthesize sources",
+      "paraphrase"
+    ],
+    "vocab": [
+      "academic discussion"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module TOEFL Integrated: Reading+Listening+Writing. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: synthesize sources, paraphrase.",
+    "exercise": "Mini exercise for TOEFL Integrated: Reading+Listening+Writing: use synthesize sources in a sentence about academic discussion.",
+    "tests": [
+      "TOEFL W integrated"
+    ]
+  },
+  {
+    "id": "M30-L1",
+    "module_id": "M30",
+    "title": "TOEFL Speaking: Interview & Academic - Lesson 1",
+    "cefr": "C1",
+    "objective": "Fluency & coherence",
+    "points": [
+      "spontaneous response",
+      "discourse markers"
+    ],
+    "vocab": [
+      "campus talk"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module TOEFL Speaking: Interview & Academic. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: spontaneous response, discourse markers.",
+    "exercise": "Mini exercise for TOEFL Speaking: Interview & Academic: use spontaneous response in a sentence about campus talk.",
+    "tests": [
+      "TOEFL Speaking"
+    ]
+  },
+  {
+    "id": "M31-L1",
+    "module_id": "M31",
+    "title": "IELTS Speaking 3-Part Deep Dive - Lesson 1",
+    "cefr": "C1",
+    "objective": "Band 7-9",
+    "points": [
+      "Part 1 fluency",
+      "Part 2 long turn 2min",
+      "Part 3 abstract discussion"
+    ],
+    "vocab": [
+      "abstract topics"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module IELTS Speaking 3-Part Deep Dive. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: Part 1 fluency, Part 2 long turn 2min.",
+    "exercise": "Mini exercise for IELTS Speaking 3-Part Deep Dive: use Part 1 fluency in a sentence about abstract topics.",
+    "tests": [
+      "IELTS Speaking"
+    ]
+  },
+  {
+    "id": "M32-L1",
+    "module_id": "M32",
+    "title": "TOEIC High Score: Incomplete Sentences Tactics - Lesson 1",
+    "cefr": "C1",
+    "objective": "860+ strategy",
+    "points": [
+      "speed 0.5min/Q",
+      "elimination"
+    ],
+    "vocab": [
+      "business vocab 600"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module TOEIC High Score: Incomplete Sentences Tactics. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: speed 0.5min/Q, elimination.",
+    "exercise": "Mini exercise for TOEIC High Score: Incomplete Sentences Tactics: use speed 0.5min/Q in a sentence about business vocab 600.",
+    "tests": [
+      "TOEIC 860+"
+    ]
+  },
+  {
+    "id": "M33-L1",
+    "module_id": "M33",
+    "title": "Academic Reading: Inference & Paraphrase - Lesson 1",
+    "cefr": "C2",
+    "objective": "C2 reading",
+    "points": [
+      "implicit meaning",
+      "paraphrase detection"
+    ],
+    "vocab": [
+      "abstract 700w"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Academic Reading: Inference & Paraphrase. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: implicit meaning, paraphrase detection.",
+    "exercise": "Mini exercise for Academic Reading: Inference & Paraphrase: use implicit meaning in a sentence about abstract 700w.",
+    "tests": [
+      "IELTS R 8.5",
+      "TOEFL R"
+    ]
+  },
+  {
+    "id": "M34-L1",
+    "module_id": "M34",
+    "title": "Listening: Unstructured & Fast Native - Lesson 1",
+    "cefr": "C2",
+    "objective": "C2 listening",
+    "points": [
+      "idiomatic fast",
+      "implied relationships"
+    ],
+    "vocab": [
+      "panel, debate"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Listening: Unstructured & Fast Native. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: idiomatic fast, implied relationships.",
+    "exercise": "Mini exercise for Listening: Unstructured & Fast Native: use idiomatic fast in a sentence about panel, debate.",
+    "tests": [
+      "TOEFL L",
+      "IELTS L"
+    ]
+  },
+  {
+    "id": "M35-L1",
+    "module_id": "M35",
+    "title": "Mastery Writing: Argument & Synthesis - Lesson 1",
+    "cefr": "C2",
+    "objective": "Mastery",
+    "points": [
+      "That-clause fronted",
+      "Little did..."
+    ],
+    "vocab": [
+      "wabi-sabi, synthesis"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Mastery Writing: Argument & Synthesis. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: That-clause fronted, Little did....",
+    "exercise": "Mini exercise for Mastery Writing: Argument & Synthesis: use That-clause fronted in a sentence about wabi-sabi, synthesis.",
+    "tests": [
+      "IELTS 9",
+      "TOEFL 6"
+    ]
+  },
+  {
+    "id": "M36-L1",
+    "module_id": "M36",
+    "title": "Pronunciation & Intonation Lab - Lesson 1",
+    "cefr": "A1-C2",
+    "objective": "Bunyi & intonasi",
+    "points": [
+      "phonemes",
+      "word/sentence stress",
+      "intonation"
+    ],
+    "vocab": [
+      "minimal pairs"
+    ],
+    "dialog_prompt": "You are an AI English tutor for module Pronunciation & Intonation Lab. Teach interactively via conversation. Start with a warm example, then ask learner to try, correct gently, and give a mini exercise. Keep replies short (2-4 sentences) and ask one question at a time. Current lesson focus: phonemes, word/sentence stress.",
+    "exercise": "Mini exercise for Pronunciation & Intonation Lab: use phonemes in a sentence about minimal pairs.",
+    "tests": [
+      "All Speaking"
+    ]
+  }
+]
