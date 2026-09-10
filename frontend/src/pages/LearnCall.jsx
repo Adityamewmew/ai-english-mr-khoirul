@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import usePlacement from '../store/usePlacement'
+import VoiceConversation from '../components/VoiceConversation'
 
 const VOICES=[
   {id:'en-US-AriaNeural', label:'Aria (US F)'},
@@ -85,7 +86,7 @@ export default function LearnCall(){
         <div style={{width:40, height:40, borderRadius:'50%', background: callOn?'#22c55e':'#1e3a8a', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontWeight:800}}>{mod?.id?.slice(0,2)||'AI'}</div>
         <div>
           <div style={{fontWeight:700, fontSize:14}}>{callOn?'📞 Guru AI — Telepon': 'Guru AI — Chat'}</div>
-          <div style={{fontSize:11, opacity:.7}}>{lesson.title} · {grade} · {callOn? 'suara aktif':'suara mati'}</div>
+          <div style={{fontSize:11, opacity:.7}}>{lesson.title} · {grade} · STT→LLM→TTS loop {callOn?'aktif':'mati'}</div>
         </div>
       </div>
       <div style={{display:'flex', gap:8, alignItems:'center'}}>
@@ -104,8 +105,33 @@ export default function LearnCall(){
       <audio ref={audioRef} controls style={{display:'none'}} />
     </div>}
 
+    {/* voice pipeline panel */}
+    <div style={{padding:'10px 12px', background: callOn?'#0f172a':'#f8fafc', borderBottom: callOn?'1px solid #334155':'1px solid #e2e8f0'}}>
+      <VoiceConversation
+        lessonId={lesson?.id}
+        learnerCefr={grade}
+        voice={voice}
+        history={msgs.map(m=>({role:m.role, content:m.content}))}
+        onTranscript={(text)=>{
+          setMsgs(prev=>[...prev, {role:'user', content: text}])
+        }}
+        onReply={(reply, audioB64)=>{
+          setMsgs(prev=>[...prev, {role:'assistant', content: reply, audioB64 }])
+          // auto play via VoiceConversation already handles audio, but also ensure LearnCall audioRef plays if b64 exists
+          if(audioB64 && !muted && audioRef.current){
+            try{
+              const blob=new Blob([Uint8Array.from(atob(audioB64), c=>c.charCodeAt(0))], {type:'audio/mpeg'})
+              const url=URL.createObjectURL(blob)
+              audioRef.current.src=url
+              audioRef.current.play().catch(()=>{})
+            }catch{}
+          }
+        }}
+      />
+    </div>
+
     {/* messages */}
-    <div style={{flex:1, overflowY:'auto', padding:12, background: callOn?'#0f172a':'#f8fafc'}}>
+    <div style={{flex:1, overflowY:'auto' , padding:12, background: callOn?'#0f172a':'#f8fafc'}}>
       {msgs.map((m,i)=><div key={i} style={{display:'flex', justifyContent: m.role==='user'?'flex-end':'flex-start', marginBottom:8}}>
         <div style={{maxWidth:'82%', padding:'10px 14px', borderRadius: m.role==='user'?'18px 18px 4px 18px':'18px 18px 18px 4px', background: m.role==='user'? (callOn?'#2563eb':'#1e3a8a'): (callOn?'#1e293b':'#fff'), color: m.role==='user'?'#fff': (callOn?'#e2e8f0':'#1e293b'), border: m.role==='assistant' && !callOn?'1px solid #e2e8f0':'1px solid transparent', fontSize:14, whiteSpace:'pre-wrap', boxShadow: callOn?'0 2px 8px rgba(0,0,0,.3)':'none'}}>
           {m.content}

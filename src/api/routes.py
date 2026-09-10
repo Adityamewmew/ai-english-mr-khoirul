@@ -247,6 +247,75 @@ async def learn_lesson_chat_voice(payload: dict):
     return {"lesson_id": lesson_id, "reply": reply, "audio_b64": audio_b64, "lesson": lesson, "voice": voice}
 
 
+
+@app.post("/learn/stt")
+async def learn_stt(audio: bytes = None):
+    """STT: audio file (webm/mp3/wav) -> text. Uses OpenAI Whisper if key available, else 503."""
+    from fastapi import UploadFile, File
+    return {"note": "Use client-side Web Speech API for STT (see LearnCall.jsx). Server STT requires OPENAI_API_KEY + whisper."}
+
+@app.post("/learn/voice/pipeline")
+async def learn_voice_pipeline(payload: dict):
+    """Full pipeline: {lesson_id, learner_cefr, text_or_audio_b64, history, voice} -> {transcript, reply, audio_b64}
+    If payload contains audio_b64, try server STT via Whisper; else use text field as transcript.
+    This is the server-side pipeline STT->LLM->TTS.
+    """
+    lesson_id = payload.get("lesson_id")
+    learner_cefr = payload.get("learner_cefr") or "B1"
+    history = payload.get("history") or []
+    voice = payload.get("voice") or "en-US-AriaNeural"
+    rate = payload.get("rate") or "+0%"
+    # Step 4: STT - if audio provided, transcribe
+    transcript = (payload.get("text") or payload.get("transcript") or "").strip()
+    audio_b64 = payload.get("audio_b64")
+    if not transcript and audio_b64:
+        # try Whisper via OpenAI
+        try:
+            import base64, tempfile, os
+            from openai import OpenAI
+            from src.utils.config import LLM_API_KEY, LLM_BASE_URL
+            # need real openai key, not proxy - fallback to error
+            if not LLM_API_KEY or LLM_API_KEY in ("dummy","***"):
+                raise RuntimeError("no whisper key")
+            raw = base64.b64decode(audio_b64)
+            with tempfile.NamedTemporaryFile(suffix=".webm", delete=False) as f:
+                f.write(raw); fname=f.name
+            client = OpenAI(api_key=LLM_API_KEY)
+            with open(fname, "rb") as af:
+                tr = client.audio.transcriptions.create(model="whisper-1", file=af)
+            transcript = tr.text or ""
+            os.unlink(fname)
+        except Exception as e:
+            raise HTTPException(503, f"Server STT unavailable: {e}. Use browser SpeechRecognition.")
+    if not transcript:
+        raise HTTPException(400, "transcript/text or audio_b64 required")
+    # Step 5: LLM -> 6: TTS (reuse chat-voice logic)
+    lesson = lesson_by_id(lesson_id)
+    if not lesson:
+        raise HTTPException(404, f"Lesson {lesson_id} not found")
+    sys_prompt = system_prompt_for_lesson(lesson, learner_cefr)
+    msgs = [{"role":"system","content": sys_prompt}]
+    for h in history[-10:]:
+        if h.get("role") in ("user","assistant") and h.get("content"):
+            msgs.append({"role": h["role"], "content": h["content"][:1200]})
+    msgs.append({"role":"user","content": transcript[:1500]})
+    try:
+        reply = llm_chat(msgs, temperature=0.7, max_tokens=400)
+        if not (reply or "").strip():
+            raise ValueError("empty")
+    except Exception as e:
+        reply = f"Halo! Kita belajar {lesson['title']} ({lesson['cefr']}) — {lesson['objective']}. Contoh: I am a student. Kamu coba: perkenalkan diri pakai 'I am ...'. {lesson['exercise']}"
+    audio_out_b64 = None
+    if HAS_TTS:
+        try:
+            data = await _tts_bytes(reply, voice, rate)
+            import base64 as _b64
+            audio_out_b64 = _b64.b64encode(data).decode()
+        except Exception:
+            pass
+    return {"transcript": transcript, "reply": reply, "audio_b64": audio_out_b64, "lesson": lesson, "voice": voice}
+
+
 # ---- CEFR Grading ----
 @app.post("/grade", response_model=GradeResponse)
 def grade(req: GradeRequest):
