@@ -50,6 +50,7 @@ export default function LearnChat(){
       </div>
       <div style={{display:'flex', gap:8}}>
         <button onClick={()=>store.set({stage:7})} style={{padding:'8px 12px', borderRadius:8, background:'#f1f5f9', border:'1px solid #e2e8f0', fontSize:12}}>← Modul</button>
+        <button onClick={()=>store.set({stage:8})} style={{padding:'8px 12px', borderRadius:8, background:'#0d9488', color:'#fff', border:0, fontWeight:700, fontSize:12}}>📞 Telepon</button>
         <button onClick={()=>store.set({stage:5})} style={{padding:'8px 12px', borderRadius:8, background:'#e2e8f0', border:0, fontSize:12}}>Dashboard</button>
       </div>
     </div>

@@ -9,6 +9,7 @@ import Result from './pages/Result'
 import Dashboard from './pages/Dashboard'
 import Learn from './pages/Learn'
 import LearnChat from './pages/LearnChat'
+import LearnCall from './pages/LearnCall'
 
 function Gate(){
   const stage = usePlacement(s=>s.stage)
@@ -21,6 +22,7 @@ function Gate(){
   if(stage===4) return <Result/>
   if(stage===6) return <LearnChat/>
   if(stage===7) return <Learn/>
+  if(stage===8) return <LearnCall/>
   return <Dashboard/>
 }
 function App(){

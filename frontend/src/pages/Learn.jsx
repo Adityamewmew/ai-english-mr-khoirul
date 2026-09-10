@@ -41,5 +41,6 @@ function ModCard({m}){
     <div style={{fontSize:11, color:'#64748b', marginTop:6}}>{m.points?.slice(0,3).join(' • ')}</div>
     <div style={{fontSize:11, color:'#64748b'}}>Tests: {m.tests?.join(', ')}</div>
     <button onClick={go} style={{marginTop:10, width:'100%', padding:'10px', borderRadius:8, background:'#1e3a8a', color:'#fff', border:0, fontWeight:700}}>Ngobrol dengan Guru AI →</button>
+    <button onClick={()=>{ const id=m.id; fetch(`/api/learn/lessons?module_id=${id}`).then(r=>r.json()).then(d=>{ const first=d.lessons?.[0]; if(first) usePlacement.getState().set({stage:8, _learn:{module:m, lesson:first}}); })}} style={{marginTop:6, width:'100%', padding:'10px', borderRadius:8, background:'#0d9488', color:'#fff', border:0, fontWeight:700}}>📞 Telepon Guru AI</button>
   </div>
 }

@@ -140,8 +140,11 @@ def learn_lesson_chat(req: LessonChatRequest):
     msgs.append({"role":"user","content": req.message[:1500]})
     try:
         reply = llm_chat(msgs, temperature=0.7, max_tokens=500)
+        if not (reply or "").strip():
+            raise ValueError("empty reply from LLM")
     except Exception as e:
-        reply = f"[stub tutor] ({lesson['title']}) — LLM offline: {e}. Contoh: '{lesson['exercise']}' — coba jawab, lalu aku koreksi."
+        # fallback yang tetap ngajar, bukan stub kosong
+        reply = f"Halo! Kita belajar {lesson['title']} ({lesson['cefr']}) — {lesson['objective']}. Contoh: I am a student. Kamu coba: perkenalkan diri pakai 'I am ...' dalam 1 kalimat. {lesson['exercise']}"
     return {"lesson_id": req.lesson_id, "reply": reply, "lesson": lesson}
 
 @app.get("/learn/lesson/{lesson_id}/quiz")
@@ -160,6 +163,88 @@ def learn_lesson_quiz(lesson_id: str, n: int = 3):
     _rnd.seed(hash(lesson_id) % 997)
     quiz = _rnd.sample(cand, min(n, len(cand)))
     return {"lesson_id": lesson_id, "quiz": [{"id":q["id"],"question":q["question"],"options":q["options"],"answer":q["answer"]} for q in quiz]}
+
+
+
+import tempfile, base64, asyncio
+try:
+    import edge_tts
+    HAS_TTS = True
+except Exception:
+    HAS_TTS = False
+
+async def _tts_bytes(text: str, voice: str = "en-US-AriaNeural", rate: str = "+0%") -> bytes:
+    if not HAS_TTS:
+        raise RuntimeError("edge-tts not installed")
+    # edge_tts communicate
+    comm = edge_tts.Communicate(text[:1200], voice, rate=rate)
+    chunks = []
+    async for chunk in comm.stream():
+        if chunk["type"] == "audio":
+            chunks.append(chunk["data"])
+    return b"".join(chunks)
+
+@app.get("/learn/tts/voices")
+def tts_voices():
+    return {
+        "voices": [
+            {"id":"en-US-AriaNeural","label":"Aria (US female, warm)","accent":"US"},
+            {"id":"en-GB-SoniaNeural","label":"Sonia (UK female)","accent":"UK"},
+            {"id":"en-AU-NatashaNeural","label":"Natasha (AU female)","accent":"AU"},
+            {"id":"en-US-GuyNeural","label":"Guy (US male)","accent":"US"},
+            {"id":"en-GB-RyanNeural","label":"Ryan (UK male)","accent":"UK"},
+        ],
+        "has_tts": HAS_TTS
+    }
+
+@app.post("/learn/lesson/tts")
+async def learn_lesson_tts(payload: dict):
+    text = (payload.get("text") or "")[:1200]
+    voice = payload.get("voice") or "en-US-AriaNeural"
+    rate = payload.get("rate") or "+0%"
+    if not text.strip():
+        raise HTTPException(400, "text required")
+    if not HAS_TTS:
+        raise HTTPException(503, "TTS not available (edge-tts missing)")
+    try:
+        data = await _tts_bytes(text, voice, rate)
+    except Exception as e:
+        raise HTTPException(500, f"TTS failed: {e}")
+    from fastapi.responses import Response
+    return Response(content=data, media_type="audio/mpeg", headers={"Content-Disposition": "inline; filename=tts.mp3"})
+
+@app.post("/learn/lesson/chat-voice")
+async def learn_lesson_chat_voice(payload: dict):
+    """Chat + TTS in one call: returns reply + base64 audio"""
+    lesson_id = payload.get("lesson_id")
+    learner_cefr = payload.get("learner_cefr") or "B1"
+    message = (payload.get("message") or "")[:1500]
+    history = payload.get("history") or []
+    voice = payload.get("voice") or "en-US-AriaNeural"
+    rate = payload.get("rate") or "+0%"
+    lesson = lesson_by_id(lesson_id)
+    if not lesson:
+        raise HTTPException(404, f"Lesson {lesson_id} not found")
+    sys_prompt = system_prompt_for_lesson(lesson, learner_cefr)
+    msgs = [{"role":"system","content": sys_prompt}]
+    for h in history[-10:]:
+        if h.get("role") in ("user","assistant") and h.get("content"):
+            msgs.append({"role": h["role"], "content": h["content"][:1200]})
+    msgs.append({"role":"user","content": message})
+    try:
+        reply = llm_chat(msgs, temperature=0.7, max_tokens=400)
+        if not (reply or "").strip():
+            raise ValueError("empty reply")
+    except Exception as e:
+        reply = f"Halo! Kita belajar {lesson['title']} ({lesson['cefr']}) — {lesson['objective']}. Contoh: I am a student. Kamu coba: perkenalkan diri pakai 'I am ...' dalam 1 kalimat. {lesson['exercise']}"
+    audio_b64 = None
+    if HAS_TTS:
+        try:
+            data = await _tts_bytes(reply, voice, rate)
+            audio_b64 = base64.b64encode(data).decode()
+        except Exception:
+            pass
+    return {"lesson_id": lesson_id, "reply": reply, "audio_b64": audio_b64, "lesson": lesson, "voice": voice}
 
 
 # ---- CEFR Grading ----
