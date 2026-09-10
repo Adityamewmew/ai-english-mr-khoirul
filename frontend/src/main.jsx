@@ -1,21 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import usePlacement from './store/usePlacement'
 import Welcome from './pages/Welcome'
 import Stage1 from './pages/Stage1'
 import Stage2 from './pages/Stage2'
 import WritingSpeaking from './pages/WritingSpeaking'
 import Result from './pages/Result'
+import Dashboard from './pages/Dashboard'
 
 function Gate(){
-  const { stage } = usePlacement()
-  // simple stage router
+  const stage = usePlacement(s=>s.stage)
+  const init = usePlacement(s=>s.init)
+  React.useEffect(()=>{ init() },[])
   if(stage===0) return <Welcome/>
   if(stage===1) return <Stage1/>
   if(stage===2) return <Stage2/>
   if(stage===3) return <WritingSpeaking/>
-  return <Result/>
+  if(stage===4) return <Result/>
+  return <Dashboard/>
 }
 function App(){
   return <div>
